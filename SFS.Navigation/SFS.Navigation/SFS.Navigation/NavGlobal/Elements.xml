@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Control Id="SuiteBarBrandingDelegate" Sequence="10" ControlSrc="~/_controltemplates/15/SFS.Navigation/HierarchicalNav.ascx" xmlns="http://schemas.microsoft.com/sharepoint/" />
+</Elements>
