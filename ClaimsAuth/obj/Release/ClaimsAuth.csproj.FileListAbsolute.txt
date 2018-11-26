@@ -1,0 +1,6 @@
+C:\Users\Michael.A.Thomas\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\ClaimsAuth\bin\Release\ClaimsAuth.dll
+C:\Users\Michael.A.Thomas\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\ClaimsAuth\bin\Release\ClaimsAuth.pdb
+C:\Users\Michael.A.Thomas\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\ClaimsAuth\obj\Release\ClaimsAuth.csprojAssemblyReference.cache
+C:\Users\Michael.A.Thomas\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\ClaimsAuth\obj\Release\ClaimsAuth.csproj.CoreCompileInputs.cache
+C:\Users\Michael.A.Thomas\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\ClaimsAuth\obj\Release\ClaimsAuth.dll
+C:\Users\Michael.A.Thomas\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\ClaimsAuth\obj\Release\ClaimsAuth.pdb

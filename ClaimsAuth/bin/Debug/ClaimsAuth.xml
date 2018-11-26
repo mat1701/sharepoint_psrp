@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClaimsAuth</name>
+    </assembly>
+    <members>
+        <member name="T:MSDN.Samples.ClaimsAuth.ClaimClientContext">
+            <summary>
+            Override for for display pop [MAT]
+            </summary>
+            <param></param>
+            <returns></returns>
+        </member>
+        <member name="M:MSDN.Samples.ClaimsAuth.ClaimClientContext.GetAuthenticatedCookies(System.String,System.Int32,System.Int32)">
+            <summary>
+            Displays a pop up to login the user. An authentication Cookie is returned if the user is sucessfully authenticated.
+            </summary>
+            <param name="targetSiteUrl"></param>
+            <param name="popUpWidth"></param>
+            <param name="popUpHeight"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MSDN.Samples.ClaimsAuth.ClaimClientContext.GetAuthenticatedContext(System.String)">
+            <summary>
+            Override for for displaying pop. Default width and height values are used for the pop up window.
+            </summary>
+            <param name="targetSiteUrl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MSDN.Samples.ClaimsAuth.ClaimClientContext.GetAuthenticatedContext(System.String,System.Int32,System.Int32)">
+            <summary>
+            This method will return a ClientContext object with the authentication cookie set.
+            The ClientContext should be disposed of as any other IDisposable
+            </summary>
+            <param name="targetSiteUrl"></param>
+            <param name="popUpWidth"></param>
+            <param name="popUpHeight"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MSDN.Samples.ClaimsAuth.CookieReader">
+            <summary>
+            WinInet.dll wrapper
+            </summary>
+        </member>
+        <member name="F:MSDN.Samples.ClaimsAuth.CookieReader.INTERNET_COOKIE_HTTPONLY">
+            <summary>
+            Enables the retrieval of cookies that are marked as "HTTPOnly". 
+            Do not use this flag if you expose a scriptable interface, 
+            because this has security implications. It is imperative that 
+            you use this flag only if you can guarantee that you will never 
+            expose the cookie to third-party code by way of an 
+            extensibility mechanism you provide. 
+            Version:  Requires Internet Explorer 8.0 or later.
+            </summary>
+        </member>
+        <member name="M:MSDN.Samples.ClaimsAuth.CookieReader.GetCookie(System.String)">
+            <summary>
+            Returns cookie contents as a string
+            </summary>
+            <param name="url"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MSDN.Samples.ClaimsAuth.ClaimsWebAuth">
+            <summary>
+            Provides means to authenticate a user via a pop up login form.
+            </summary>
+        </member>
+        <member name="M:MSDN.Samples.ClaimsAuth.ClaimsWebAuth.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>
+            Displays a pop up window to authenticate the user
+            </summary>
+            <param name="targetSiteUrl"></param>
+            <param name="popUpWidth"></param>
+            <param name="popUpHeight"></param>
+        </member>
+        <member name="P:MSDN.Samples.ClaimsAuth.ClaimsWebAuth.LoginPageUrl">
+            <summary>
+            Login form Url
+            </summary>
+        </member>
+        <member name="P:MSDN.Samples.ClaimsAuth.ClaimsWebAuth.NavigationEndUrl">
+            <summary>
+            Success Url
+            </summary>
+        </member>
+        <member name="F:MSDN.Samples.ClaimsAuth.ClaimsWebAuth.fldTargetSiteUrl">
+            <summary>
+            Target site Url
+            </summary>
+        </member>
+        <member name="P:MSDN.Samples.ClaimsAuth.ClaimsWebAuth.AuthCookies">
+            <summary>
+            Cookies returned from CLAIM server.
+            </summary>
+        </member>
+        <member name="P:MSDN.Samples.ClaimsAuth.ClaimsWebAuth.IsCLAIMSite">
+            <summary>
+            Is set to true if the CLAIM site did not return the proper headers -- hence it's not an CLAIM site or does not support CLAIM style authentication
+            </summary>
+        </member>
+        <member name="P:MSDN.Samples.ClaimsAuth.ClaimsWebAuth.PopUpWidth">
+            <summary>
+            Width of Login dialog
+            </summary>
+        </member>
+        <member name="P:MSDN.Samples.ClaimsAuth.ClaimsWebAuth.PopUpHeight">
+            <summary>
+            Height of Login dialog
+            </summary>
+        </member>
+        <member name="M:MSDN.Samples.ClaimsAuth.ClaimsWebAuth.Show">
+            <summary>
+            Opens a Windows Forms Web Browser control to authenticate the user against an CLAIM site.
+            </summary>
+            [PermissionSet(SecurityAction.Demand, Name = "FullTrust")]
+        </member>
+        <member name="M:MSDN.Samples.ClaimsAuth.ClaimsWebAuth.Dispose">
+            <summary> 
+            Disposes of this instance. 
+            </summary> 
+        </member>
+    </members>
+</doc>

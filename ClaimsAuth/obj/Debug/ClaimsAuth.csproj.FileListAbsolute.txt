@@ -1,0 +1,13 @@
+C:\Users\Michael.A.Thomas\Documents\Remote Authentication in SharePoint Online Using the Client Object Model\C#\ClaimsAuth\bin\Debug\ClaimsAuth.dll
+C:\Users\Michael.A.Thomas\Documents\Remote Authentication in SharePoint Online Using the Client Object Model\C#\ClaimsAuth\bin\Debug\ClaimsAuth.pdb
+C:\Users\Michael.A.Thomas\Documents\Remote Authentication in SharePoint Online Using the Client Object Model\C#\ClaimsAuth\obj\Debug\ClaimsAuth.csprojAssemblyReference.cache
+C:\Users\Michael.A.Thomas\Documents\Remote Authentication in SharePoint Online Using the Client Object Model\C#\ClaimsAuth\obj\Debug\ClaimsAuth.csproj.CoreCompileInputs.cache
+C:\Users\Michael.A.Thomas\Documents\Remote Authentication in SharePoint Online Using the Client Object Model\C#\ClaimsAuth\obj\Debug\ClaimsAuth.dll
+C:\Users\Michael.A.Thomas\Documents\Remote Authentication in SharePoint Online Using the Client Object Model\C#\ClaimsAuth\obj\Debug\ClaimsAuth.pdb
+C:\Users\Michael.A.Thomas\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\ClaimsAuth\bin\Debug\ClaimsAuth.dll
+C:\Users\Michael.A.Thomas\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\ClaimsAuth\bin\Debug\ClaimsAuth.pdb
+C:\Users\Michael.A.Thomas\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\ClaimsAuth\obj\Debug\ClaimsAuth.csproj.CoreCompileInputs.cache
+C:\Users\Michael.A.Thomas\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\ClaimsAuth\obj\Debug\ClaimsAuth.dll
+C:\Users\Michael.A.Thomas\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\ClaimsAuth\obj\Debug\ClaimsAuth.pdb
+C:\Users\Michael.A.Thomas\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\ClaimsAuth\bin\Debug\ClaimsAuth.xml
+C:\Users\Michael.A.Thomas\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\ClaimsAuth\obj\Debug\ClaimsAuth.csprojAssemblyReference.cache

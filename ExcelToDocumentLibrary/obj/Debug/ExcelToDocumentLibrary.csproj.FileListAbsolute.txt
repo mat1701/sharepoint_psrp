@@ -1,0 +1,2 @@
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\ExcelToDocumentLibrary\obj\Debug\ExcelToDocumentLibrary.csprojResolveAssemblyReference.cache
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\ExcelToDocumentLibrary\obj\Debug\ExcelToDocumentLibrary.csprojResolveAssemblyReference.cache
