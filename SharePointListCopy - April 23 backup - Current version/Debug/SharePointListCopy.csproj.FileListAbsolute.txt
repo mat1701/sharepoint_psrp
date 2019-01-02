@@ -1,0 +1,86 @@
+c:\users\administrator.bradtest\documents\visual studio 2013\Projects\SharePointListCopy\SharePointListCopy\bin\Debug\SharePointListCopy.exe.config
+c:\users\administrator.bradtest\documents\visual studio 2013\Projects\SharePointListCopy\SharePointListCopy\bin\Debug\SharePointListCopy.exe
+c:\users\administrator.bradtest\documents\visual studio 2013\Projects\SharePointListCopy\SharePointListCopy\bin\Debug\SharePointListCopy.pdb
+c:\users\administrator.bradtest\documents\visual studio 2013\Projects\SharePointListCopy\SharePointListCopy\bin\Debug\Microsoft.CSharp.dll
+c:\users\administrator.bradtest\documents\visual studio 2013\Projects\SharePointListCopy\SharePointListCopy\bin\Debug\Microsoft.SharePoint.Client.dll
+c:\users\administrator.bradtest\documents\visual studio 2013\Projects\SharePointListCopy\SharePointListCopy\obj\Debug\SharePointListCopy.csprojResolveAssemblyReference.cache
+c:\users\administrator.bradtest\documents\visual studio 2013\Projects\SharePointListCopy\SharePointListCopy\obj\Debug\SharePointListCopy.exe
+c:\users\administrator.bradtest\documents\visual studio 2013\Projects\SharePointListCopy\SharePointListCopy\obj\Debug\SharePointListCopy.pdb
+c:\users\administrator.bradtest\documents\visual studio 2013\Projects\SharePointListCopy\SharePointListCopy\bin\Debug\log4net.dll
+c:\users\administrator.bradtest\documents\visual studio 2013\Projects\SharePointListCopy\SharePointListCopy\bin\Debug\log4net.pdb
+c:\users\administrator.bradtest\documents\visual studio 2013\Projects\SharePointListCopy\SharePointListCopy\bin\Debug\log4net.xml
+c:\users\administrator.bradtest\documents\visual studio 2013\Projects\SharePointListCopy\SharePointListCopy\bin\Debug\log4net.config
+C:\development\captureportal\SharePointListCopy\SharePointListCopy\bin\Debug\SharePointListCopy.exe.config
+C:\development\captureportal\SharePointListCopy\SharePointListCopy\obj\Debug\SharePointListCopy.exe
+C:\development\captureportal\SharePointListCopy\SharePointListCopy\obj\Debug\SharePointListCopy.pdb
+C:\development\captureportal\SharePointListCopy\SharePointListCopy\bin\Debug\log4net.config
+C:\development\captureportal\SharePointListCopy\SharePointListCopy\bin\Debug\SharePointListCopy.exe
+C:\development\captureportal\SharePointListCopy\SharePointListCopy\bin\Debug\SharePointListCopy.pdb
+C:\development\captureportal\SharePointListCopy\SharePointListCopy\bin\Debug\log4net.dll
+C:\development\captureportal\SharePointListCopy\SharePointListCopy\bin\Debug\Microsoft.CSharp.dll
+C:\development\captureportal\SharePointListCopy\SharePointListCopy\bin\Debug\Microsoft.SharePoint.Client.dll
+C:\development\captureportal\SharePointListCopy\SharePointListCopy\bin\Debug\Microsoft.SharePoint.Client.Runtime.dll
+C:\development\captureportal\SharePointListCopy\SharePointListCopy\bin\Debug\log4net.pdb
+C:\development\captureportal\SharePointListCopy\SharePointListCopy\bin\Debug\log4net.xml
+C:\development\captureportal\SharePointListCopy\SharePointListCopy\bin\Debug\ClosedXML.dll
+C:\development\captureportal\SharePointListCopy\SharePointListCopy\bin\Debug\DocumentFormat.OpenXml.dll
+C:\development\captureportal\SharePointListCopy\SharePointListCopy\bin\Debug\DocumentFormat.OpenXml.xml
+C:\development\captureportal\SharePointListCopy\SharePointListCopy\bin\Debug\SharePointListCopy.XML
+C:\development\captureportal\SharePointListCopy\SharePointListCopy\bin\Debug\Excel.dll
+C:\development\captureportal\SharePointListCopy\SharePointListCopy\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\development\captureportal\SharePointListCopy\SharePointListCopy\bin\Debug\Excel.pdb
+C:\development\captureportal\SharePointListCopy\SharePointListCopy\obj\Debug\SharePointListCopy.csprojResolveAssemblyReference.cache
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\SharePointListCopy\bin\Debug\log4net.config
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\SharePointListCopy\bin\Debug\SharePointListCopy.exe.config
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\SharePointListCopy\bin\Debug\SharePointListCopy.XML
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\SharePointListCopy\bin\Debug\SharePointListCopy.exe
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\SharePointListCopy\bin\Debug\SharePointListCopy.pdb
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\SharePointListCopy\bin\Debug\ClosedXML.dll
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\SharePointListCopy\bin\Debug\EntityFramework.dll
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\SharePointListCopy\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\SharePointListCopy\bin\Debug\Excel.dll
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\SharePointListCopy\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\SharePointListCopy\bin\Debug\log4net.dll
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\SharePointListCopy\bin\Debug\Microsoft.CSharp.dll
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\SharePointListCopy\bin\Debug\Microsoft.SharePoint.Client.dll
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\SharePointListCopy\bin\Debug\EntityFramework.xml
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\SharePointListCopy\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\SharePointListCopy\bin\Debug\Excel.pdb
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\SharePointListCopy\bin\Debug\log4net.pdb
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\SharePointListCopy\bin\Debug\log4net.xml
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\SharePointListCopy\obj\Debug\SharePointListCopy.csprojResolveAssemblyReference.cache
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\SharePointListCopy\obj\Debug\SharePointListCopy.exe
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master\SharePointListCopy\obj\Debug\SharePointListCopy.pdb
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\SharePointListCopy.exe.config
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\SharePointListCopy.XML
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\obj\Debug\SharePointListCopy.exe
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\obj\Debug\SharePointListCopy.pdb
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\log4net.config
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\SharePointListCopy.exe
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\SharePointListCopy.pdb
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\ClosedXML.dll
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\EntityFramework.dll
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\Excel.dll
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\log4net.dll
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\Microsoft.CSharp.dll
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\Microsoft.SharePoint.Client.dll
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\EntityFramework.xml
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\Excel.pdb
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\log4net.pdb
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\log4net.xml
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\obj\Debug\SharePointListCopy.csprojResolveAssemblyReference.cache
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\SharePointListCopy.exe.manifest
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\SharePointListCopy.application
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\obj\Debug\SharePointListCopy.exe.manifest
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\obj\Debug\SharePointListCopy.application
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\log-file.txt
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\obj\Debug\SharePointListCopy.Properties.Resources.resources
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\obj\Debug\SharePointListCopy.csproj.GenerateResource.Cache
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\Deploy.dll
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\Microsoft.SharePoint.Client.Runtime.dll
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\Deploy.xml
+C:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\bin\Debug\DocumentFormat.OpenXml.xml
