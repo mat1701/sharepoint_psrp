@@ -1,0 +1,894 @@
+2016-09-16 10:17:28,028 [8] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/  target backup:MikeTestPipelineBackup  source backup PipelineBackup
+2016-09-16 10:17:31,823 [8] DEBUG SharePointListCopy.Program [(null)] - ClientContextWeb: https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/
+2016-09-16 10:17:31,824 [8] DEBUG SharePointListCopy.Program [(null)] - backupListTarget: MikeTestPipelineBackup
+2016-09-16 10:17:31,824 [8] DEBUG SharePointListCopy.Program [(null)] - backupListSource: PipelineBackup
+2016-09-16 10:17:31,824 [8] DEBUG SharePointListCopy.Program [(null)] - pipelineBackupDocLib: PipelineArchive
+2016-09-16 10:17:31,824 [8] DEBUG SharePointListCopy.Program [(null)] - updateList: MikeTestPipelineBackup
+2016-09-16 11:36:26,441 [7] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/  target backup:MikeTestPipelineBackup  source backup PipelineBackup
+2016-09-16 11:36:26,681 [7] DEBUG SharePointListCopy.Program [(null)] - ClientContextWeb: https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/
+2016-09-16 11:36:26,681 [7] DEBUG SharePointListCopy.Program [(null)] - backupListTarget: MikeTestPipelineBackup
+2016-09-16 11:36:26,682 [7] DEBUG SharePointListCopy.Program [(null)] - backupListSource: PipelineBackup
+2016-09-16 11:36:26,683 [7] DEBUG SharePointListCopy.Program [(null)] - pipelineBackupDocLib: PipelineArchive
+2016-09-16 11:36:26,684 [7] DEBUG SharePointListCopy.Program [(null)] - updateList: MikeTestPipelineBackup
+2016-09-16 11:40:03,914 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:40:04,064 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPP-0002208426 with update.
+2016-09-16 11:41:07,421 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:41:07,423 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPP-0004404920 with update.
+2016-09-16 11:41:26,677 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:41:26,679 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPP-0004168235 with update.
+2016-09-16 11:42:31,765 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:42:31,767 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPP-0003508315 with update.
+2016-09-16 11:42:45,915 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:42:45,917 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPP-0004016960 with update.
+2016-09-16 11:44:15,164 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:44:15,168 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPP-0004679804 with update.
+2016-09-16 11:44:18,603 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:44:18,605 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0004750060 with update.
+2016-09-16 11:44:19,151 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:44:19,152 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005001995 with update.
+2016-09-16 11:44:35,338 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:44:35,340 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPP-0004406247 with update.
+2016-09-16 11:44:38,707 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:44:38,708 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPP-0003176122 with update.
+2016-09-16 11:45:09,128 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:45:09,130 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0004971785 with update.
+2016-09-16 11:45:10,360 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:45:10,365 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPP-0004168372 with update.
+2016-09-16 11:45:53,117 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:45:53,118 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005049853 with update.
+2016-09-16 11:46:02,781 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:46:02,783 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005053423 with update.
+2016-09-16 11:46:03,443 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:46:03,444 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005053441 with update.
+2016-09-16 11:46:08,421 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:46:08,422 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005056976 with update.
+2016-09-16 11:46:10,776 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:46:10,777 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005060033 with update.
+2016-09-16 11:46:13,143 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:46:13,145 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0004910928 with update.
+2016-09-16 11:46:20,240 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:46:20,241 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005117796 with update.
+2016-09-16 11:46:21,442 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:46:21,444 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005122966 with update.
+2016-09-16 11:46:38,952 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:46:38,954 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005177713 with update.
+2016-09-16 11:46:41,797 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:46:41,797 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005178628 with update.
+2016-09-16 11:46:44,896 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:46:44,897 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005192659 with update.
+2016-09-16 11:47:42,425 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:47:42,426 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005235431 with update.
+2016-09-16 11:47:51,435 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:47:51,436 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005246203 with update.
+2016-09-16 11:48:05,680 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:48:05,681 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005288453 with update.
+2016-09-16 11:48:10,740 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:48:10,741 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005296985 with update.
+2016-09-16 11:48:17,185 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:48:17,186 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005310229 with update.
+2016-09-16 11:48:31,792 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:48:31,794 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005358013 with update.
+2016-09-16 11:48:32,429 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:48:32,430 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005358011 with update.
+2016-09-16 11:48:33,056 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:48:33,057 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005356530 with update.
+2016-09-16 11:48:45,563 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:48:45,565 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005393331 with update.
+2016-09-16 11:48:47,404 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:48:47,405 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005405903 with update.
+2016-09-16 11:49:01,313 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:49:01,314 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005437419 with update.
+2016-09-16 11:49:02,605 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:49:02,607 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005443220 with update.
+2016-09-16 11:49:03,244 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:49:03,245 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005442899 with update.
+2016-09-16 11:49:05,136 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:49:05,138 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005448361 with update.
+2016-09-16 11:49:05,782 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:49:05,783 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005448383 with update.
+2016-09-16 11:49:06,409 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:49:06,411 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005448379 with update.
+2016-09-16 11:49:08,188 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:49:08,190 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005453474 with update.
+2016-09-16 11:49:08,791 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:49:08,792 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005453472 with update.
+2016-09-16 11:49:10,585 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:49:10,587 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005454224 with update.
+2016-09-16 11:49:14,180 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:49:14,182 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005462661 with update.
+2016-09-16 11:49:16,650 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:49:16,651 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005487214 with update.
+2016-09-16 11:49:19,098 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:49:19,100 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005492051 with update.
+2016-09-16 11:49:34,713 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:49:34,715 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005542956 with update.
+2016-09-16 11:49:35,354 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:49:35,355 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005548590 with update.
+2016-09-16 11:49:36,560 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:49:36,562 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005554471 with update.
+2016-09-16 11:49:37,803 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:49:37,805 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005559364 with update.
+2016-09-16 11:49:41,479 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:49:41,480 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005570862 with update.
+2016-09-16 11:49:49,911 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:49:49,913 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005593487 with update.
+2016-09-16 11:49:57,829 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:49:57,830 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005609976 with update.
+2016-09-16 11:50:02,921 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:50:02,922 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005638517 with update.
+2016-09-16 11:50:18,961 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:50:18,962 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005700470 with update.
+2016-09-16 11:50:23,547 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:50:23,549 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005705406 with update.
+2016-09-16 11:50:24,209 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:50:24,211 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005705392 with update.
+2016-09-16 11:50:24,851 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:50:24,852 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005705468 with update.
+2016-09-16 11:50:25,544 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:50:25,546 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005705448 with update.
+2016-09-16 11:50:26,331 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:50:26,332 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005705402 with update.
+2016-09-16 11:50:27,005 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:50:27,007 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005705429 with update.
+2016-09-16 11:50:27,714 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:50:27,715 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005705472 with update.
+2016-09-16 11:50:28,346 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:50:28,347 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005705427 with update.
+2016-09-16 11:50:28,935 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:50:28,936 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005705441 with update.
+2016-09-16 11:50:29,547 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:50:29,549 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005705453 with update.
+2016-09-16 11:50:30,182 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:50:30,184 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005705412 with update.
+2016-09-16 11:50:30,806 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:50:30,808 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005705451 with update.
+2016-09-16 11:50:32,083 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:50:32,087 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005715922 with update.
+2016-09-16 11:50:34,528 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:50:34,530 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005722678 with update.
+2016-09-16 11:50:35,837 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:50:35,838 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005723220 with update.
+2016-09-16 11:50:37,052 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:50:37,053 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005735181 with update.
+2016-09-16 11:50:40,250 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:50:40,252 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005757819 with update.
+2016-09-16 11:50:40,902 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:50:40,904 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005756198 with update.
+2016-09-16 11:50:56,126 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:50:56,128 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005766376 with update.
+2016-09-16 11:51:06,632 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:51:06,633 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005793679 with update.
+2016-09-16 11:51:12,413 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:51:12,415 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005805823 with update.
+2016-09-16 11:51:16,210 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:51:16,211 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005826415 with update.
+2016-09-16 11:51:21,189 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:51:21,190 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005841914 with update.
+2016-09-16 11:51:21,749 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:51:21,750 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005841923 with update.
+2016-09-16 11:51:28,554 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:51:28,555 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005876037 with update.
+2016-09-16 11:51:38,226 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:51:38,228 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005911408 with update.
+2016-09-16 11:52:01,427 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:52:01,428 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005955212 with update.
+2016-09-16 11:52:04,258 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:52:04,260 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0005987905 with update.
+2016-09-16 11:52:13,735 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:52:13,737 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0006021665 with update.
+2016-09-16 11:52:15,067 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:52:15,069 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0006022135 with update.
+2016-09-16 11:52:16,984 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:52:16,984 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0006022259 with update.
+2016-09-16 11:52:18,807 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:52:18,809 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0006030502 with update.
+2016-09-16 11:52:20,021 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:52:20,023 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0006035435 with update.
+2016-09-16 11:52:21,911 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:52:21,912 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0006041565 with update.
+2016-09-16 11:52:28,300 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:52:28,302 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0006059511 with update.
+2016-09-16 11:52:33,467 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:52:33,467 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0006059597 with update.
+2016-09-16 11:52:37,863 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:52:37,865 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0006099666 with update.
+2016-09-16 11:52:41,024 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:52:41,025 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0006105869 with update.
+2016-09-16 11:52:44,910 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:52:44,912 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0006115262 with update.
+2016-09-16 11:52:46,144 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:52:46,145 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0006115652 with update.
+2016-09-16 11:52:49,138 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:52:49,140 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0006140231 with update.
+2016-09-16 11:52:51,677 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:52:51,679 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0006144301 with update.
+2016-09-16 11:52:52,275 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:52:52,276 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0006143834 with update.
+2016-09-16 11:52:56,500 [7] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-16 11:52:56,501 [7] DEBUG SharePointListCopy.BackupHelper [(null)] - ERROR: OPE-0006180668 with update.

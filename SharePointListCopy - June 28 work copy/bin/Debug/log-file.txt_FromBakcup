@@ -1,0 +1,221 @@
+2016-07-21 17:23:20,926 [10] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/  target backup:PipelineBackup  source backup Pipeline
+2016-07-21 17:23:21,029 [10] DEBUG SharePointListCopy.Program [(null)] - ClientContextWeb: https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/
+2016-07-21 17:23:21,029 [10] DEBUG SharePointListCopy.Program [(null)] - backupListTarget: PipelineBackup
+2016-07-21 17:23:21,030 [10] DEBUG SharePointListCopy.Program [(null)] - backupListSource: Pipeline
+2016-07-21 17:23:21,030 [10] DEBUG SharePointListCopy.Program [(null)] - pipelineBackupDocLib: PipelineArchive
+2016-07-21 17:23:21,030 [10] DEBUG SharePointListCopy.Program [(null)] - updateList: PipelineBackup
+2016-07-21 17:23:28,233 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Opening List: PipelineBackup
+2016-07-21 17:23:28,234 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Internal fields
+2016-07-21 17:23:28,234 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------------------------
+2016-07-21 17:23:28,240 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Content Type ID,   Internal Name: ContentTypeId
+2016-07-21 17:23:28,241 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OpportunityName,   Internal Name: Title
+2016-07-21 17:23:28,241 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Approver Comments,   Internal Name: _ModerationComments
+2016-07-21 17:23:28,241 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: File Type,   Internal Name: File_x0020_Type
+2016-07-21 17:23:28,241 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Project Name,   Internal Name: Project_x0020_Name
+2016-07-21 17:23:28,241 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: HPEOppID,   Internal Name: HPOppID
+2016-07-21 17:23:28,242 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OpportunityOwner,   Internal Name: OpportunityOwner
+2016-07-21 17:23:28,242 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SalesStage,   Internal Name: SalesStage
+2016-07-21 17:23:28,242 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OpportunityType,   Internal Name: OpportunityType
+2016-07-21 17:23:28,242 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: AccountName,   Internal Name: AccountName
+2016-07-21 17:23:28,242 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: LineOfBusiness,   Internal Name: LineOfBusiness
+2016-07-21 17:23:28,242 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: GBU,   Internal Name: GBU
+2016-07-21 17:23:28,243 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OpportunityDescription,   Internal Name: OpportunityDescription
+2016-07-21 17:23:28,243 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: TotalMarginAmount,   Internal Name: TotalMarginAmount
+2016-07-21 17:23:28,243 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: TotalOpportunityValue,   Internal Name: TotalOpportunityValue
+2016-07-21 17:23:28,243 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: TotalFirstFiscalYearValue,   Internal Name: TotalFirstFiscalYearValue
+2016-07-21 17:23:28,243 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: FiscalPeriod,   Internal Name: FiscalPeriod
+2016-07-21 17:23:28,244 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: RFPIssueDate,   Internal Name: RFPIssueDate
+2016-07-21 17:23:28,244 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: CloseDate,   Internal Name: CloseDate
+2016-07-21 17:23:28,244 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ProposalDueDate,   Internal Name: ProposalDueDate
+2016-07-21 17:23:28,244 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: AwardDate,   Internal Name: AwardDate
+2016-07-21 17:23:28,244 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ContractStartDate,   Internal Name: ContractStartDate
+2016-07-21 17:23:28,245 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: TotalContractLengthMonths,   Internal Name: TotalContractLengthMonths
+2016-07-21 17:23:28,245 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Forecast,   Internal Name: Forecast
+2016-07-21 17:23:28,245 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Closed,   Internal Name: Closed
+2016-07-21 17:23:28,245 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Won,   Internal Name: Won
+2016-07-21 17:23:28,246 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: WonLostDate,   Internal Name: WonLostDate
+2016-07-21 17:23:28,246 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: WonLostReason,   Internal Name: WonLostReason
+2016-07-21 17:23:28,246 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: MPP,   Internal Name: MPP
+2016-07-21 17:23:28,246 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: PP,   Internal Name: PP
+2016-07-21 17:23:28,246 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: PursuitStage,   Internal Name: PursuitStage
+2016-07-21 17:23:28,246 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Opportunity Manager,   Internal Name: Opportunity_x0020_Manager
+2016-07-21 17:23:28,247 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Resources,   Internal Name: Resources
+2016-07-21 17:23:28,247 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ApprovedB&P,   Internal Name: ApprovedB_x0026_P
+2016-07-21 17:23:28,247 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: BPtravel,   Internal Name: B_x0026_Ptravel
+2016-07-21 17:23:28,247 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: B&Pspent,   Internal Name: B_x0026_Pspent
+2016-07-21 17:23:28,247 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: WBS-BDcode,   Internal Name: WBS_x002d_BDcode
+2016-07-21 17:23:28,247 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: WorkingWithES,   Internal Name: WorkingWithES
+2016-07-21 17:23:28,248 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ES-WBS,   Internal Name: ES_x002d_WBS
+2016-07-21 17:23:28,248 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: DealPrime,   Internal Name: DealPrime
+2016-07-21 17:23:28,248 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: LowerTierSub,   Internal Name: LowerTierSub
+2016-07-21 17:23:28,248 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: C&Irole,   Internal Name: C_x0026_Irole
+2016-07-21 17:23:28,248 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: HPEleadBU,   Internal Name: HPEleadBU
+2016-07-21 17:23:28,268 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OtherBUs,   Internal Name: OtherBUs
+2016-07-21 17:23:28,268 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: TCV,   Internal Name: Pricing
+2016-07-21 17:23:28,268 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ContractVehicle,   Internal Name: ContractVehicle
+2016-07-21 17:23:28,269 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ContractType,   Internal Name: ContractType
+2016-07-21 17:23:28,269 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: BidType,   Internal Name: BidType
+2016-07-21 17:23:28,269 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: C&IBidType,   Internal Name: C_x0026_IBidType
+2016-07-21 17:23:28,269 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ProcurementType,   Internal Name: ProcurementType
+2016-07-21 17:23:28,269 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: CaptureReportFlag,   Internal Name: CaptureReportFlag
+2016-07-21 17:23:28,270 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Engaged,   Internal Name: Engaged
+2016-07-21 17:23:28,270 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OppMatrixFlag,   Internal Name: OppMatrixFlag
+2016-07-21 17:23:28,270 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: PQRdate,   Internal Name: PQRdate
+2016-07-21 17:23:28,270 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SEEDdate,   Internal Name: SEEDdate
+2016-07-21 17:23:28,271 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SOARExpediteDate,   Internal Name: SOARExpediteDate
+2016-07-21 17:23:28,271 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: BASOARdate,   Internal Name: BASOARdate
+2016-07-21 17:23:28,271 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OASOARdate,   Internal Name: OASOARdate
+2016-07-21 17:23:28,271 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ContractModSOARdate,   Internal Name: ContractModSOARdate
+2016-07-21 17:23:28,271 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: T&CSOARdate,   Internal Name: T_x0026_CSOARdate
+2016-07-21 17:23:28,272 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: CurrentSOARplusID,   Internal Name: CurrentSOARplusID
+2016-07-21 17:23:28,272 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: PreviousSOARplusID,   Internal Name: PreviousSOARplusID
+2016-07-21 17:23:28,272 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: RLTrequired,   Internal Name: RLTrequired
+2016-07-21 17:23:28,273 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: RLTdate,   Internal Name: RLTdate
+2016-07-21 17:23:28,273 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: PMO-TOdate,   Internal Name: PMO_x002d_TOdate
+2016-07-21 17:23:28,273 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: PrimaryCompetitor,   Internal Name: PrimaryCompetitor
+2016-07-21 17:23:28,273 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: IncumbentCompetitor,   Internal Name: IncumbentCompetitor
+2016-07-21 17:23:28,274 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ResponseDueHigherTier,   Internal Name: ResponseDueHigherTier
+2016-07-21 17:23:28,274 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SolicitationClassification,   Internal Name: SolicitationClassification
+2016-07-21 17:23:28,274 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SolicitationType,   Internal Name: SolicitationType
+2016-07-21 17:23:28,274 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SetAside,   Internal Name: SetAside
+2016-07-21 17:23:28,274 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Comments,   Internal Name: Comments
+2016-07-21 17:23:28,274 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: DHC_PredictorScorePrior,   Internal Name: DHC_PredictorScorePrior
+2016-07-21 17:23:28,275 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: DHC_CloserScore,   Internal Name: DHC_CloserScore
+2016-07-21 17:23:28,276 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: DHC_CloserScorePrior,   Internal Name: DHC_CloserScorePrior
+2016-07-21 17:23:28,276 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: DHC_PredictorScoreCurrent,   Internal Name: DHC_PredictorScoreCurrent
+2016-07-21 17:23:28,276 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ResourcesRequested,   Internal Name: ResourcesRequested
+2016-07-21 17:23:28,276 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SOARcoodinator,   Internal Name: SOARcoodinator
+2016-07-21 17:23:28,276 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ProjectStart,   Internal Name: ProjectStart
+2016-07-21 17:23:28,277 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ProjectEnd,   Internal Name: ProjectEnd
+2016-07-21 17:23:28,277 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SOARcomments,   Internal Name: SOARcomments
+2016-07-21 17:23:28,277 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: NotApprovedReason,   Internal Name: NotApprovedReason
+2016-07-21 17:23:28,277 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SalesForceCreated,   Internal Name: SalesForceCreated
+2016-07-21 17:23:28,277 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SalesForceCreatedBy,   Internal Name: SalesForceCreatedBy
+2016-07-21 17:23:28,277 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SalesForceModified,   Internal Name: SalesForceModified
+2016-07-21 17:23:28,278 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SalesForceModifiedBy,   Internal Name: SalesForceModifiedBy
+2016-07-21 17:23:28,278 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OpportunityName,   Internal Name: LinkTitleNoMenu
+2016-07-21 17:23:28,278 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OpportunityName,   Internal Name: LinkTitle
+2016-07-21 17:23:28,278 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OpportunityName,   Internal Name: LinkTitle2
+2016-07-21 17:23:28,278 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: DeckURL,   Internal Name: DeckURL
+2016-07-21 17:23:28,278 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: TrueUps,   Internal Name: TrueUps
+2016-07-21 17:23:28,279 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SOARapprovers,   Internal Name: SOARapprovers
+2016-07-21 17:23:28,279 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SOARreviewers,   Internal Name: SOARreviewers
+2016-07-21 17:23:28,279 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Created By,   Internal Name: Author
+2016-07-21 17:23:28,279 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Modified By,   Internal Name: Editor
+2016-07-21 17:23:28,279 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Modified,   Internal Name: Modified
+2016-07-21 17:23:28,279 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Created,   Internal Name: Created
+2016-07-21 17:23:28,280 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SalesForceLink,   Internal Name: SalesForceLink
+2016-07-21 17:23:28,280 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: CSE,   Internal Name: CSE
+2016-07-21 17:23:28,280 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: WorkflowFlags,   Internal Name: WorkflowFlags
+2016-07-21 17:23:28,280 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Express,   Internal Name: Express
+2016-07-21 17:23:28,280 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: 3rdParty,   Internal Name: _x0033_rdParty
+2016-07-21 17:23:28,281 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: BPrequested,   Internal Name: BPrequested
+2016-07-21 17:23:28,281 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SOAR-Approval,   Internal Name: SOARAppr
+2016-07-21 17:23:28,281 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SOARPlusObjectives,   Internal Name: SOARPlusObjectives
+2016-07-21 17:23:28,281 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SharePointSiteLink,   Internal Name: SharePointSiteLink
+2016-07-21 17:23:28,281 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SOARPlusStatus,   Internal Name: SOARPlusStatus
+2016-07-21 17:23:28,281 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ReviewerComments,   Internal Name: ReviewerComments
+2016-07-21 17:23:28,282 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Scope,   Internal Name: Scope
+2016-07-21 17:23:28,282 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: TAcompleted,   Internal Name: TAcompleted
+2016-07-21 17:23:28,282 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Workshare,   Internal Name: Workshare
+2016-07-21 17:23:28,282 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: TotalCosts,   Internal Name: TotalCosts
+2016-07-21 17:23:28,282 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: EGM,   Internal Name: EGM
+2016-07-21 17:23:28,282 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: EGM%,   Internal Name: EGM_x0025_
+2016-07-21 17:23:28,283 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OperatingProfit,   Internal Name: OperatingProfit
+2016-07-21 17:23:28,283 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: IRR,   Internal Name: IRR
+2016-07-21 17:23:28,283 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Payback,   Internal Name: Payback
+2016-07-21 17:23:28,283 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ALR,   Internal Name: ALR
+2016-07-21 17:23:28,283 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: LowMarginJustification,   Internal Name: LowMarginJustification
+2016-07-21 17:23:28,283 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: BASOARcomments,   Internal Name: BASOARcomments
+2016-07-21 17:23:28,284 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: BASOAR_RejectionReason,   Internal Name: BASOAR_RejectionReason
+2016-07-21 17:23:28,284 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Offerings,   Internal Name: Offerings
+2016-07-21 17:23:28,284 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: FinalResponseAttached,   Internal Name: FinalResponseAttached
+2016-07-21 17:23:28,284 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: PastPerformance,   Internal Name: PastPerformance
+2016-07-21 17:23:28,284 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: EconomicValue,   Internal Name: EconomicValue
+2016-07-21 17:23:28,284 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: PreviousSalesforceLinks,   Internal Name: PreviousSalesforceLinks
+2016-07-21 17:23:28,285 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Period,   Internal Name: Period
+2016-07-21 17:23:28,285 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ID,   Internal Name: ID
+2016-07-21 17:23:28,285 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Content Type,   Internal Name: ContentType
+2016-07-21 17:23:28,285 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Has Copy Destinations,   Internal Name: _HasCopyDestinations
+2016-07-21 17:23:28,285 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Copy Source,   Internal Name: _CopySource
+2016-07-21 17:23:28,286 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: owshiddenversion,   Internal Name: owshiddenversion
+2016-07-21 17:23:28,286 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Workflow Version,   Internal Name: WorkflowVersion
+2016-07-21 17:23:28,286 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: UI Version,   Internal Name: _UIVersion
+2016-07-21 17:23:28,286 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Version,   Internal Name: _UIVersionString
+2016-07-21 17:23:28,286 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Attachments,   Internal Name: Attachments
+2016-07-21 17:23:28,287 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Approval Status,   Internal Name: _ModerationStatus
+2016-07-21 17:23:28,287 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Edit,   Internal Name: Edit
+2016-07-21 17:23:28,287 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Select,   Internal Name: SelectTitle
+2016-07-21 17:23:28,287 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Instance ID,   Internal Name: InstanceID
+2016-07-21 17:23:28,287 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Order,   Internal Name: Order
+2016-07-21 17:23:28,288 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: GUID,   Internal Name: GUID
+2016-07-21 17:23:28,288 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Workflow Instance ID,   Internal Name: WorkflowInstanceID
+2016-07-21 17:23:28,288 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: URL Path,   Internal Name: FileRef
+2016-07-21 17:23:28,288 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Path,   Internal Name: FileDirRef
+2016-07-21 17:23:28,288 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Modified,   Internal Name: Last_x0020_Modified
+2016-07-21 17:23:28,288 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Created,   Internal Name: Created_x0020_Date
+2016-07-21 17:23:28,289 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Item Type,   Internal Name: FSObjType
+2016-07-21 17:23:28,289 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Sort Type,   Internal Name: SortBehavior
+2016-07-21 17:23:28,289 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Effective Permissions Mask,   Internal Name: PermMask
+2016-07-21 17:23:28,289 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Name,   Internal Name: FileLeafRef
+2016-07-21 17:23:28,289 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Unique Id,   Internal Name: UniqueId
+2016-07-21 17:23:28,290 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Client Id,   Internal Name: SyncClientId
+2016-07-21 17:23:28,291 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ProgId,   Internal Name: ProgId
+2016-07-21 17:23:28,291 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ScopeId,   Internal Name: ScopeId
+2016-07-21 17:23:28,291 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: HTML File Type,   Internal Name: HTML_x0020_File_x0020_Type
+2016-07-21 17:23:28,291 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Edit Menu Table Start,   Internal Name: _EditMenuTableStart
+2016-07-21 17:23:28,291 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Edit Menu Table Start,   Internal Name: _EditMenuTableStart2
+2016-07-21 17:23:28,292 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Edit Menu Table End,   Internal Name: _EditMenuTableEnd
+2016-07-21 17:23:28,292 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Name,   Internal Name: LinkFilenameNoMenu
+2016-07-21 17:23:28,292 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Name,   Internal Name: LinkFilename
+2016-07-21 17:23:28,292 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Name,   Internal Name: LinkFilename2
+2016-07-21 17:23:28,292 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Type,   Internal Name: DocIcon
+2016-07-21 17:23:28,293 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Server Relative URL,   Internal Name: ServerUrl
+2016-07-21 17:23:28,293 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Encoded Absolute URL,   Internal Name: EncodedAbsUrl
+2016-07-21 17:23:28,293 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: File Name,   Internal Name: BaseName
+2016-07-21 17:23:28,293 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Property Bag,   Internal Name: MetaInfo
+2016-07-21 17:23:28,293 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Level,   Internal Name: _Level
+2016-07-21 17:23:28,294 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Is Current Version,   Internal Name: _IsCurrentVersion
+2016-07-21 17:23:28,294 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Item Child Count,   Internal Name: ItemChildCount
+2016-07-21 17:23:28,294 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Folder Child Count,   Internal Name: FolderChildCount
+2016-07-21 17:23:28,294 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: App Created By,   Internal Name: AppAuthor
+2016-07-21 17:23:28,294 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: App Modified By,   Internal Name: AppEditor
+2016-07-21 17:23:28,295 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-07-21 17:23:28,295 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPE-0005968390
+2016-07-21 17:23:28,299 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:CS - SPAWAR Consulting - FY16Q3 Travel  ID:OPE-0005968390
+2016-07-21 17:23:29,769 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-07-21 17:23:29,770 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPP-0004439644
+2016-07-21 17:23:29,773 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:CS - USDA NFC FMMI Base Year  ID:OPP-0004439644
+2016-07-21 17:23:30,367 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-07-21 17:23:30,367 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPE-0005869373
+2016-07-21 17:23:30,370 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:CS - USDA NFC FMMI Option Years  ID:OPE-0005869373
+2016-07-21 17:23:30,937 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-07-21 17:23:30,937 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPE-0005060073
+2016-07-21 17:23:30,943 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:CS - Army ARL - ITO/Cyber Security - tbd - new (s-tbd) (Base Yr)  ID:OPE-0005060073
+2016-07-21 17:23:31,535 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-07-21 17:23:31,535 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPE-0005593487
+2016-07-21 17:23:31,540 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:CS - Army NETCOM - ITO/Army Priv Cloud Ent (APCE) - tbd - New (s-ES)  ID:OPE-0005593487
+2016-07-21 17:23:32,087 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-07-21 17:23:32,088 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPE-0005492306
+2016-07-21 17:23:32,092 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:CS - Army HRC ITIS ITO/App - ITES 2s - New - (s-ES)  ID:OPE-0005492306
+2016-07-21 17:23:32,631 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-07-21 17:23:32,632 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPP-0004065465
+2016-07-21 17:23:32,636 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:CS - MLP - TRADOC CKO PM-KM-PI - ITO/App - SB Set Aside/SDVO - New - (s-Summit Tech)  ID:OPP-0004065465
+2016-07-21 17:23:33,179 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-07-21 17:23:33,180 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPE-0005405903
+2016-07-21 17:23:33,184 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:CS - Army HQDA CIO/G6 - ITO/Support (AONS) - Unrestricted - New - (s-ES  ID:OPE-0005405903
+2016-07-21 17:23:33,822 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-07-21 17:23:33,822 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPP-0004540896
+2016-07-21 17:23:33,826 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:CS - Army AMCOM G6 ITSS III - ITO / ITO Lifecycle - Unrestricted - takeway (s-tbd)  ID:OPP-0004540896
+2016-07-21 17:23:34,394 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-07-21 17:23:34,395 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - 
+2016-07-21 17:23:34,710 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-07-21 17:23:34,711 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - 
+2016-07-21 17:23:35,003 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-07-21 17:23:35,004 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - 
+2016-07-21 17:23:35,293 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-07-21 17:23:35,293 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - 
+2016-07-21 17:23:35,588 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-07-21 17:23:35,589 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - 
+2016-07-21 17:23:35,900 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-07-21 17:23:35,908 [10] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - 

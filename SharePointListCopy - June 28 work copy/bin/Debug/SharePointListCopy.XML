@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SharePointListCopy</name>
+    </assembly>
+    <members>
+        <member name="T:SharePointListCopy.BackupHelper">
+            <summary>
+            Helper class for backup
+            
+            this class will backup a list to an excel spreadsheet
+            It will then remove the items from the list
+            Finally it will take the pipeline list and copy the items to the backup list
+            </summary>
+        </member>
+        <member name="M:SharePointListCopy.BackupHelper.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            Backups and exports lists
+            </summary>
+            <param name="clientContextWeb">client context url</param>
+            <param name="backupListTarget">list that is exported and deleted</param>
+            <param name="backupListSource">list that needs to be backedup</param>
+            <param name="pipelineBackupDocLib">doc library for backup of excel file</param>
+        </member>
+        <member name="T:SharePointListCopy.Program">
+            <summary>
+            SharePoint list copy will allow the backup of the current pipeline list
+            
+            Assumptions:
+              We do not have access to the sharepoint server so we need to use client context
+              We are using a console app so we can can add in a scheduled event
+            </summary>
+        </member>
+        <member name="M:SharePointListCopy.Program.Main(System.String[])">
+            <summary>
+            entry point into the backup list program
+            </summary>
+            <param name="args">Not really used</param>
+        </member>
+        <member name="T:SharePointListCopy.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:SharePointListCopy.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:SharePointListCopy.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:SharePointListCopy.UpdatePipelineList">
+            <summary>
+            UpdatePipeline Class
+            
+            this class will update a list from an excel spreadsheet
+            </summary>
+        </member>
+        <member name="M:SharePointListCopy.UpdatePipelineList.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            Update Pipeline list
+            </summary>
+            <param name="clientContextWeb">client context url</param>
+            <param name="backupListTarget">list that is exported and deleted</param>
+            <param name="excelIndexTarget">list that needs to be backedup</param>
+            <param name="sharepointIndexTarget">doc library for backup of excel file</param>
+        </member>
+    </members>
+</doc>
