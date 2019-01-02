@@ -1,0 +1,1766 @@
+2016-09-13 10:12:34,541 [1] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/  target backup:MikeTestPipelineBackup  source backup Pipeline
+2016-09-13 10:12:35,002 [1] DEBUG SharePointListCopy.Program [(null)] - ClientContextWeb: https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/
+2016-09-13 10:12:35,002 [1] DEBUG SharePointListCopy.Program [(null)] - backupListTarget: MikeTestPipelineBackup
+2016-09-13 10:12:35,003 [1] DEBUG SharePointListCopy.Program [(null)] - backupListSource: Pipeline
+2016-09-13 10:12:35,004 [1] DEBUG SharePointListCopy.Program [(null)] - pipelineBackupDocLib: PipelineArchive
+2016-09-13 10:12:35,005 [1] DEBUG SharePointListCopy.Program [(null)] - updateList: MikeTestPipelineBackup
+2016-09-13 10:12:57,825 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Opening List: MikeTestPipelineBackup
+2016-09-13 10:12:57,826 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Internal fields
+2016-09-13 10:12:57,827 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------------------------
+2016-09-13 10:12:57,877 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Content Type ID,   Internal Name: ContentTypeId
+2016-09-13 10:12:57,879 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: ContentTypeId
+2016-09-13 10:12:57,880 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,881 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OpportunityName,   Internal Name: Title
+2016-09-13 10:12:57,882 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Title
+2016-09-13 10:12:57,883 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,883 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Approver Comments,   Internal Name: _ModerationComments
+2016-09-13 10:12:57,884 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: _ModerationComments
+2016-09-13 10:12:57,884 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,885 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: File Type,   Internal Name: File_x0020_Type
+2016-09-13 10:12:57,885 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: File_x0020_Type
+2016-09-13 10:12:57,886 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,886 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Project Name,   Internal Name: Project_x0020_Name
+2016-09-13 10:12:57,886 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Project_x0020_Name
+2016-09-13 10:12:57,887 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,887 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: HPEOppID,   Internal Name: HPEOppID
+2016-09-13 10:12:57,888 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: HPEOppID
+2016-09-13 10:12:57,889 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,889 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OpportunityOwner,   Internal Name: OpportunityOwner
+2016-09-13 10:12:57,889 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: OpportunityOwner
+2016-09-13 10:12:57,890 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,890 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SalesStage,   Internal Name: SalesStage
+2016-09-13 10:12:57,890 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: SalesStage
+2016-09-13 10:12:57,891 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,891 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OpportunityType,   Internal Name: OpportunityType
+2016-09-13 10:12:57,892 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: OpportunityType
+2016-09-13 10:12:57,892 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,893 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: AccountName,   Internal Name: AccountName
+2016-09-13 10:12:57,893 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: AccountName
+2016-09-13 10:12:57,893 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,894 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: LineOfBusiness,   Internal Name: LineOfBusiness
+2016-09-13 10:12:57,894 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: LineOfBusiness
+2016-09-13 10:12:57,894 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,895 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: GBU,   Internal Name: GBU
+2016-09-13 10:12:57,895 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: GBU
+2016-09-13 10:12:57,896 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,896 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OpportunityDescription,   Internal Name: OpportunityDescription
+2016-09-13 10:12:57,897 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: OpportunityDescription
+2016-09-13 10:12:57,898 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,899 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: TotalMarginAmount,   Internal Name: TotalMarginAmount
+2016-09-13 10:12:57,900 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: TotalMarginAmount
+2016-09-13 10:12:57,901 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,902 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: TotalOpportunityValue,   Internal Name: TotalOpportunityValue
+2016-09-13 10:12:57,903 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: TotalOpportunityValue
+2016-09-13 10:12:57,904 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,905 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: TotalFirstFiscalYearValue,   Internal Name: TotalFirstFiscalYearValue
+2016-09-13 10:12:57,906 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: TotalFirstFiscalYearValue
+2016-09-13 10:12:57,907 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,908 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: FiscalPeriod,   Internal Name: FiscalPeriod
+2016-09-13 10:12:57,908 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: FiscalPeriod
+2016-09-13 10:12:57,909 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,910 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: RFPIssueDate,   Internal Name: RFPIssueDate
+2016-09-13 10:12:57,911 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: RFPIssueDate
+2016-09-13 10:12:57,912 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,913 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: CloseDate,   Internal Name: CloseDate
+2016-09-13 10:12:57,914 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: CloseDate
+2016-09-13 10:12:57,915 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,915 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ProposalDueDate,   Internal Name: ProposalDueDate
+2016-09-13 10:12:57,916 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: ProposalDueDate
+2016-09-13 10:12:57,917 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,917 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: AwardDate,   Internal Name: AwardDate
+2016-09-13 10:12:57,918 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: AwardDate
+2016-09-13 10:12:57,919 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,919 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ContractStartDate,   Internal Name: ContractStartDate
+2016-09-13 10:12:57,920 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: ContractStartDate
+2016-09-13 10:12:57,921 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,921 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: TotalContractLengthMonths,   Internal Name: TotalContractLengthMonths
+2016-09-13 10:12:57,922 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: TotalContractLengthMonths
+2016-09-13 10:12:57,923 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,923 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Forecast,   Internal Name: Forecast
+2016-09-13 10:12:57,924 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Forecast
+2016-09-13 10:12:57,925 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,925 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Closed,   Internal Name: Closed
+2016-09-13 10:12:57,926 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Closed
+2016-09-13 10:12:57,927 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,927 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Won,   Internal Name: Won
+2016-09-13 10:12:57,928 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Won
+2016-09-13 10:12:57,929 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,929 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: WonLostDate,   Internal Name: WonLostDate
+2016-09-13 10:12:57,930 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: WonLostDate
+2016-09-13 10:12:57,931 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,931 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: WonLostReason,   Internal Name: WonLostReason
+2016-09-13 10:12:57,932 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: WonLostReason
+2016-09-13 10:12:57,932 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,933 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: MPP,   Internal Name: MPP
+2016-09-13 10:12:57,934 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: MPP
+2016-09-13 10:12:57,934 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,935 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: PP,   Internal Name: PP
+2016-09-13 10:12:57,936 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: PP
+2016-09-13 10:12:57,936 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,937 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: PursuitStage,   Internal Name: PursuitStage
+2016-09-13 10:12:57,938 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: PursuitStage
+2016-09-13 10:12:57,938 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,939 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Opportunity Manager,   Internal Name: Opportunity_x0020_Manager
+2016-09-13 10:12:57,940 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Opportunity_x0020_Manager
+2016-09-13 10:12:57,940 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,941 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Resources,   Internal Name: Resources
+2016-09-13 10:12:57,942 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Resources
+2016-09-13 10:12:57,943 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,943 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ApprovedB&P,   Internal Name: ApprovedB_x0026_P
+2016-09-13 10:12:57,944 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: ApprovedB_x0026_P
+2016-09-13 10:12:57,945 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,945 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: BPtravel,   Internal Name: BPtravel
+2016-09-13 10:12:57,946 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: BPtravel
+2016-09-13 10:12:57,947 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,947 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: B&Pspent,   Internal Name: B_x0026_Pspent
+2016-09-13 10:12:57,948 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: B_x0026_Pspent
+2016-09-13 10:12:57,948 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,949 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: WBS-BDcode,   Internal Name: WBS_x002d_BDcode
+2016-09-13 10:12:57,950 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: WBS_x002d_BDcode
+2016-09-13 10:12:57,950 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,951 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: WorkingWithES,   Internal Name: WorkingWithES
+2016-09-13 10:12:57,952 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: WorkingWithES
+2016-09-13 10:12:57,952 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,953 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ES-WBS,   Internal Name: ES_x002d_WBS
+2016-09-13 10:12:57,954 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: ES_x002d_WBS
+2016-09-13 10:12:57,954 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,955 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: DealPrime,   Internal Name: DealPrime
+2016-09-13 10:12:57,955 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: DealPrime
+2016-09-13 10:12:57,956 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,957 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: LowerTierSub,   Internal Name: LowerTierSub
+2016-09-13 10:12:57,958 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: LowerTierSub
+2016-09-13 10:12:57,958 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,959 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: C&Irole,   Internal Name: C_x0026_Irole
+2016-09-13 10:12:57,960 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: C_x0026_Irole
+2016-09-13 10:12:57,960 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,961 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: HPEleadBU,   Internal Name: HPEleadBU
+2016-09-13 10:12:57,961 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: HPEleadBU
+2016-09-13 10:12:57,962 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,963 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OtherBUs,   Internal Name: OtherBUs
+2016-09-13 10:12:57,963 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: OtherBUs
+2016-09-13 10:12:57,964 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,965 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Pricing,   Internal Name: Pricing
+2016-09-13 10:12:57,966 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Pricing
+2016-09-13 10:12:57,966 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,967 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ContractVehicle,   Internal Name: ContractVehicle
+2016-09-13 10:12:57,968 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: ContractVehicle
+2016-09-13 10:12:57,968 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,969 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ContractType,   Internal Name: ContractType
+2016-09-13 10:12:57,970 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: ContractType
+2016-09-13 10:12:57,970 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,971 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: BidType,   Internal Name: BidType
+2016-09-13 10:12:57,972 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: BidType
+2016-09-13 10:12:57,972 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,973 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: C&IBidType,   Internal Name: C_x0026_IBidType
+2016-09-13 10:12:57,974 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: C_x0026_IBidType
+2016-09-13 10:12:57,974 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,975 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ProcurementType,   Internal Name: ProcurementType
+2016-09-13 10:12:57,976 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: ProcurementType
+2016-09-13 10:12:57,976 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,977 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Engaged,   Internal Name: Engaged
+2016-09-13 10:12:57,978 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Engaged
+2016-09-13 10:12:57,978 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,979 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OppMatrixFlag,   Internal Name: OppMatrixFlag
+2016-09-13 10:12:57,980 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: OppMatrixFlag
+2016-09-13 10:12:57,980 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,981 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: PQRdate,   Internal Name: PQRdate
+2016-09-13 10:12:57,981 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: PQRdate
+2016-09-13 10:12:57,982 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,983 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SEEDdate,   Internal Name: SEEDdate
+2016-09-13 10:12:57,983 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: SEEDdate
+2016-09-13 10:12:57,984 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,985 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SOARExpediteDate,   Internal Name: SOARExpediteDate
+2016-09-13 10:12:57,985 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: SOARExpediteDate
+2016-09-13 10:12:57,986 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,987 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: BASOARdate,   Internal Name: BASOARdate
+2016-09-13 10:12:57,987 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: BASOARdate
+2016-09-13 10:12:57,988 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,989 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OASOARdate,   Internal Name: OASOARdate
+2016-09-13 10:12:57,989 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: OASOARdate
+2016-09-13 10:12:57,990 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,991 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ContractModSOARdate,   Internal Name: ContractModSOARdate
+2016-09-13 10:12:57,991 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: ContractModSOARdate
+2016-09-13 10:12:57,992 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,993 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: T&CSOARdate,   Internal Name: T_x0026_CSOARdate
+2016-09-13 10:12:57,993 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: T_x0026_CSOARdate
+2016-09-13 10:12:57,994 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,995 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: CurrentSOARplusID,   Internal Name: CurrentSOARplusID
+2016-09-13 10:12:57,995 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: CurrentSOARplusID
+2016-09-13 10:12:57,996 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,996 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: PreviousSOARplusID,   Internal Name: PreviousSOARplusID
+2016-09-13 10:12:57,997 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: PreviousSOARplusID
+2016-09-13 10:12:57,998 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:57,998 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: RLTrequired,   Internal Name: RLTrequired
+2016-09-13 10:12:57,999 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: RLTrequired
+2016-09-13 10:12:58,000 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,000 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: RLTdate,   Internal Name: RLTdate
+2016-09-13 10:12:58,001 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: RLTdate
+2016-09-13 10:12:58,002 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,002 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: PMO-TOdate,   Internal Name: PMO_x002d_TOdate
+2016-09-13 10:12:58,003 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: PMO_x002d_TOdate
+2016-09-13 10:12:58,003 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,004 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: PrimaryCompetitor,   Internal Name: PrimaryCompetitor
+2016-09-13 10:12:58,004 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: PrimaryCompetitor
+2016-09-13 10:12:58,005 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,005 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: IncumbentCompetitor,   Internal Name: IncumbentCompetitor
+2016-09-13 10:12:58,006 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: IncumbentCompetitor
+2016-09-13 10:12:58,006 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,007 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ResponseDueHigherTier,   Internal Name: ResponseDueHigherTier
+2016-09-13 10:12:58,008 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: ResponseDueHigherTier
+2016-09-13 10:12:58,008 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,009 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SolicitationClassification,   Internal Name: SolicitationClassification
+2016-09-13 10:12:58,010 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: SolicitationClassification
+2016-09-13 10:12:58,010 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,011 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SolicitationType,   Internal Name: SolicitationType
+2016-09-13 10:12:58,012 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: SolicitationType
+2016-09-13 10:12:58,012 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,013 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SetAside,   Internal Name: SetAside
+2016-09-13 10:12:58,014 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: SetAside
+2016-09-13 10:12:58,014 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,015 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Comments,   Internal Name: Comments
+2016-09-13 10:12:58,015 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Comments
+2016-09-13 10:12:58,016 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,017 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: DHC_PredictorScorePrior,   Internal Name: DHC_PredictorScorePrior
+2016-09-13 10:12:58,017 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: DHC_PredictorScorePrior
+2016-09-13 10:12:58,018 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,019 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: DHC_CloserScore,   Internal Name: DHC_CloserScore
+2016-09-13 10:12:58,019 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: DHC_CloserScore
+2016-09-13 10:12:58,020 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,021 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: DHC_CloserScorePrior,   Internal Name: DHC_CloserScorePrior
+2016-09-13 10:12:58,021 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: DHC_CloserScorePrior
+2016-09-13 10:12:58,022 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,022 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: DHC_PredictorScoreCurrent,   Internal Name: DHC_PredictorScoreCurrent
+2016-09-13 10:12:58,023 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: DHC_PredictorScoreCurrent
+2016-09-13 10:12:58,024 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,024 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ResourcesRequested,   Internal Name: ResourcesRequested
+2016-09-13 10:12:58,025 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: ResourcesRequested
+2016-09-13 10:12:58,026 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,026 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SOARcoodinator,   Internal Name: SOARcoodinator
+2016-09-13 10:12:58,027 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: SOARcoodinator
+2016-09-13 10:12:58,028 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,028 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ProjectStart,   Internal Name: ProjectStart
+2016-09-13 10:12:58,029 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: ProjectStart
+2016-09-13 10:12:58,030 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,030 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ProjectEnd,   Internal Name: ProjectEnd
+2016-09-13 10:12:58,031 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: ProjectEnd
+2016-09-13 10:12:58,032 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,032 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SOARcomments,   Internal Name: SOARcomments
+2016-09-13 10:12:58,033 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: SOARcomments
+2016-09-13 10:12:58,034 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,035 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: NotApprovedReason,   Internal Name: NotApprovedReason
+2016-09-13 10:12:58,035 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: NotApprovedReason
+2016-09-13 10:12:58,036 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,037 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SalesForceCreated,   Internal Name: SalesForceCreated
+2016-09-13 10:12:58,037 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: SalesForceCreated
+2016-09-13 10:12:58,038 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,038 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SalesForceCreatedBy,   Internal Name: SalesForceCreatedBy
+2016-09-13 10:12:58,039 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: SalesForceCreatedBy
+2016-09-13 10:12:58,040 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,040 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SalesForceModified,   Internal Name: SalesForceModified
+2016-09-13 10:12:58,041 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: SalesForceModified
+2016-09-13 10:12:58,042 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,042 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SalesForceModifiedBy,   Internal Name: SalesForceModifiedBy
+2016-09-13 10:12:58,043 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: SalesForceModifiedBy
+2016-09-13 10:12:58,044 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,044 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: DeckURL,   Internal Name: DeckURL
+2016-09-13 10:12:58,045 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: DeckURL
+2016-09-13 10:12:58,046 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,046 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: TrueUps,   Internal Name: TrueUps
+2016-09-13 10:12:58,047 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: TrueUps
+2016-09-13 10:12:58,048 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,048 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SOARapprovers,   Internal Name: SOARapprovers
+2016-09-13 10:12:58,049 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: SOARapprovers
+2016-09-13 10:12:58,050 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,050 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SOARreviewers,   Internal Name: SOARreviewers
+2016-09-13 10:12:58,051 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: SOARreviewers
+2016-09-13 10:12:58,052 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,052 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SalesForceLink,   Internal Name: SalesForceLink
+2016-09-13 10:12:58,053 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: SalesForceLink
+2016-09-13 10:12:58,054 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,054 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: CSE,   Internal Name: CSE
+2016-09-13 10:12:58,055 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: CSE
+2016-09-13 10:12:58,056 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,056 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: WorkflowFlags,   Internal Name: WorkflowFlags
+2016-09-13 10:12:58,057 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: WorkflowFlags
+2016-09-13 10:12:58,058 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,058 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Express,   Internal Name: Express
+2016-09-13 10:12:58,059 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Express
+2016-09-13 10:12:58,060 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,060 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: 3rdParty,   Internal Name: _x0033_rdParty
+2016-09-13 10:12:58,061 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: _x0033_rdParty
+2016-09-13 10:12:58,062 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,062 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: BPrequested,   Internal Name: BPrequested
+2016-09-13 10:12:58,063 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: BPrequested
+2016-09-13 10:12:58,064 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,064 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SOARPlusObjectives,   Internal Name: SOARPlusObjectives
+2016-09-13 10:12:58,065 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: SOARPlusObjectives
+2016-09-13 10:12:58,065 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,066 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SharePointSiteLink,   Internal Name: SharePointSiteLink
+2016-09-13 10:12:58,067 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: SharePointSiteLink
+2016-09-13 10:12:58,067 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,068 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: SOARPlusStatus,   Internal Name: SOARPlusStatus
+2016-09-13 10:12:58,069 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: SOARPlusStatus
+2016-09-13 10:12:58,069 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,070 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ReviewerComments,   Internal Name: ReviewerComments
+2016-09-13 10:12:58,071 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: ReviewerComments
+2016-09-13 10:12:58,071 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,072 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Scope,   Internal Name: Scope
+2016-09-13 10:12:58,073 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Scope
+2016-09-13 10:12:58,073 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,074 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: TAcompleted,   Internal Name: TAcompleted
+2016-09-13 10:12:58,075 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: TAcompleted
+2016-09-13 10:12:58,076 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,076 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Workshare,   Internal Name: Workshare
+2016-09-13 10:12:58,077 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Workshare
+2016-09-13 10:12:58,078 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,078 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: TotalCosts,   Internal Name: TotalCosts
+2016-09-13 10:12:58,079 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: TotalCosts
+2016-09-13 10:12:58,080 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,080 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: EGM,   Internal Name: EGM
+2016-09-13 10:12:58,081 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: EGM
+2016-09-13 10:12:58,082 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,082 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: EGM%,   Internal Name: EGM_x0025_
+2016-09-13 10:12:58,083 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: EGM_x0025_
+2016-09-13 10:12:58,083 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,084 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OperatingProfit,   Internal Name: OperatingProfit
+2016-09-13 10:12:58,085 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: OperatingProfit
+2016-09-13 10:12:58,085 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,086 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: IRR,   Internal Name: IRR
+2016-09-13 10:12:58,087 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: IRR
+2016-09-13 10:12:58,087 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,088 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Payback,   Internal Name: Payback
+2016-09-13 10:12:58,089 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Payback
+2016-09-13 10:12:58,089 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,090 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ALR,   Internal Name: ALR
+2016-09-13 10:12:58,091 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: ALR
+2016-09-13 10:12:58,091 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,092 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: LowMarginJustification,   Internal Name: LowMarginJustification
+2016-09-13 10:12:58,093 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: LowMarginJustification
+2016-09-13 10:12:58,093 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,094 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: BASOARcomments,   Internal Name: BASOARcomments
+2016-09-13 10:12:58,095 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: BASOARcomments
+2016-09-13 10:12:58,095 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,096 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: BASOAR_RejectionReason,   Internal Name: BASOAR_RejectionReason
+2016-09-13 10:12:58,097 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: BASOAR_RejectionReason
+2016-09-13 10:12:58,097 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,098 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Offerings,   Internal Name: Offerings
+2016-09-13 10:12:58,098 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Offerings
+2016-09-13 10:12:58,099 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,100 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: FinalResponseAttached,   Internal Name: FinalResponseAttached
+2016-09-13 10:12:58,101 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: FinalResponseAttached
+2016-09-13 10:12:58,101 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,102 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: PastPerformance,   Internal Name: PastPerformance
+2016-09-13 10:12:58,103 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: PastPerformance
+2016-09-13 10:12:58,103 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,104 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: EconomicValue,   Internal Name: EconomicValue
+2016-09-13 10:12:58,105 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: EconomicValue
+2016-09-13 10:12:58,105 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,106 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: PreviousSalesforceLinks,   Internal Name: PreviousSalesforceLinks
+2016-09-13 10:12:58,107 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: PreviousSalesforceLinks
+2016-09-13 10:12:58,107 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,108 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Period,   Internal Name: Period
+2016-09-13 10:12:58,109 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Period
+2016-09-13 10:12:58,109 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,110 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Order1,   Internal Name: Order1
+2016-09-13 10:12:58,111 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Order1
+2016-09-13 10:12:58,111 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,112 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Name1,   Internal Name: Name1
+2016-09-13 10:12:58,113 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Name1
+2016-09-13 10:12:58,113 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,114 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Property Bag1,   Internal Name: Property_x0020_Bag1
+2016-09-13 10:12:58,115 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Property_x0020_Bag1
+2016-09-13 10:12:58,115 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,116 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OpportunityName,   Internal Name: LinkTitleNoMenu
+2016-09-13 10:12:58,117 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: LinkTitleNoMenu
+2016-09-13 10:12:58,117 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,118 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OpportunityName,   Internal Name: LinkTitle
+2016-09-13 10:12:58,119 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: LinkTitle
+2016-09-13 10:12:58,119 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,120 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: OpportunityName,   Internal Name: LinkTitle2
+2016-09-13 10:12:58,121 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: LinkTitle2
+2016-09-13 10:12:58,121 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,122 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: TCV,   Internal Name: TCV
+2016-09-13 10:12:58,123 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: TCV
+2016-09-13 10:12:58,123 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,124 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: CaptureReportFlag,   Internal Name: CaptureReportFlag
+2016-09-13 10:12:58,125 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: CaptureReportFlag
+2016-09-13 10:12:58,125 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,126 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: HPOppID,   Internal Name: HPOppID
+2016-09-13 10:12:58,127 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: HPOppID
+2016-09-13 10:12:58,127 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,128 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: B_x0026_Ptravel,   Internal Name: B_x0026_Ptravel
+2016-09-13 10:12:58,128 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: B_x0026_Ptravel
+2016-09-13 10:12:58,129 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,130 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ID,   Internal Name: ID
+2016-09-13 10:12:58,130 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: ID
+2016-09-13 10:12:58,131 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,132 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Content Type,   Internal Name: ContentType
+2016-09-13 10:12:58,132 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: ContentType
+2016-09-13 10:12:58,133 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,134 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Modified,   Internal Name: Modified
+2016-09-13 10:12:58,134 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Modified
+2016-09-13 10:12:58,135 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,136 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Created,   Internal Name: Created
+2016-09-13 10:12:58,136 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Created
+2016-09-13 10:12:58,137 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,138 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Created By,   Internal Name: Author
+2016-09-13 10:12:58,139 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Author
+2016-09-13 10:12:58,139 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,140 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Modified By,   Internal Name: Editor
+2016-09-13 10:12:58,141 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Editor
+2016-09-13 10:12:58,141 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,142 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Has Copy Destinations,   Internal Name: _HasCopyDestinations
+2016-09-13 10:12:58,143 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: _HasCopyDestinations
+2016-09-13 10:12:58,143 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,144 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Copy Source,   Internal Name: _CopySource
+2016-09-13 10:12:58,145 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: _CopySource
+2016-09-13 10:12:58,145 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,146 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: owshiddenversion,   Internal Name: owshiddenversion
+2016-09-13 10:12:58,147 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: owshiddenversion
+2016-09-13 10:12:58,147 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,148 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Workflow Version,   Internal Name: WorkflowVersion
+2016-09-13 10:12:58,149 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: WorkflowVersion
+2016-09-13 10:12:58,149 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,150 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: UI Version,   Internal Name: _UIVersion
+2016-09-13 10:12:58,151 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: _UIVersion
+2016-09-13 10:12:58,151 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,152 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Version,   Internal Name: _UIVersionString
+2016-09-13 10:12:58,153 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: _UIVersionString
+2016-09-13 10:12:58,153 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,154 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Attachments,   Internal Name: Attachments
+2016-09-13 10:12:58,155 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Attachments
+2016-09-13 10:12:58,155 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,156 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Approval Status,   Internal Name: _ModerationStatus
+2016-09-13 10:12:58,157 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: _ModerationStatus
+2016-09-13 10:12:58,157 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,158 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Edit,   Internal Name: Edit
+2016-09-13 10:12:58,158 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Edit
+2016-09-13 10:12:58,159 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,160 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Select,   Internal Name: SelectTitle
+2016-09-13 10:12:58,160 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: SelectTitle
+2016-09-13 10:12:58,161 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,162 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Instance ID,   Internal Name: InstanceID
+2016-09-13 10:12:58,162 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: InstanceID
+2016-09-13 10:12:58,163 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,164 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Order,   Internal Name: Order
+2016-09-13 10:12:58,164 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Order
+2016-09-13 10:12:58,165 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,166 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: GUID,   Internal Name: GUID
+2016-09-13 10:12:58,166 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: GUID
+2016-09-13 10:12:58,167 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,168 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Workflow Instance ID,   Internal Name: WorkflowInstanceID
+2016-09-13 10:12:58,168 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: WorkflowInstanceID
+2016-09-13 10:12:58,169 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,170 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: URL Path,   Internal Name: FileRef
+2016-09-13 10:12:58,170 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: FileRef
+2016-09-13 10:12:58,171 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,172 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Path,   Internal Name: FileDirRef
+2016-09-13 10:12:58,172 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: FileDirRef
+2016-09-13 10:12:58,173 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,173 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Modified,   Internal Name: Last_x0020_Modified
+2016-09-13 10:12:58,174 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Last_x0020_Modified
+2016-09-13 10:12:58,175 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,175 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Created,   Internal Name: Created_x0020_Date
+2016-09-13 10:12:58,176 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: Created_x0020_Date
+2016-09-13 10:12:58,177 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,177 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Item Type,   Internal Name: FSObjType
+2016-09-13 10:12:58,178 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: FSObjType
+2016-09-13 10:12:58,179 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,179 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Sort Type,   Internal Name: SortBehavior
+2016-09-13 10:12:58,180 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: SortBehavior
+2016-09-13 10:12:58,181 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,181 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Effective Permissions Mask,   Internal Name: PermMask
+2016-09-13 10:12:58,182 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: PermMask
+2016-09-13 10:12:58,182 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,183 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Name,   Internal Name: FileLeafRef
+2016-09-13 10:12:58,184 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: FileLeafRef
+2016-09-13 10:12:58,184 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,185 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Unique Id,   Internal Name: UniqueId
+2016-09-13 10:12:58,186 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: UniqueId
+2016-09-13 10:12:58,186 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,187 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Client Id,   Internal Name: SyncClientId
+2016-09-13 10:12:58,188 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: SyncClientId
+2016-09-13 10:12:58,188 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,189 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ProgId,   Internal Name: ProgId
+2016-09-13 10:12:58,190 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: ProgId
+2016-09-13 10:12:58,190 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,191 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: ScopeId,   Internal Name: ScopeId
+2016-09-13 10:12:58,192 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: ScopeId
+2016-09-13 10:12:58,192 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,193 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: HTML File Type,   Internal Name: HTML_x0020_File_x0020_Type
+2016-09-13 10:12:58,194 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: HTML_x0020_File_x0020_Type
+2016-09-13 10:12:58,194 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,195 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Edit Menu Table Start,   Internal Name: _EditMenuTableStart
+2016-09-13 10:12:58,196 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: _EditMenuTableStart
+2016-09-13 10:12:58,196 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,197 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Edit Menu Table Start,   Internal Name: _EditMenuTableStart2
+2016-09-13 10:12:58,198 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: _EditMenuTableStart2
+2016-09-13 10:12:58,198 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,199 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Edit Menu Table End,   Internal Name: _EditMenuTableEnd
+2016-09-13 10:12:58,200 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: _EditMenuTableEnd
+2016-09-13 10:12:58,200 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,201 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Name,   Internal Name: LinkFilenameNoMenu
+2016-09-13 10:12:58,202 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: LinkFilenameNoMenu
+2016-09-13 10:12:58,202 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,203 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Name,   Internal Name: LinkFilename
+2016-09-13 10:12:58,204 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: LinkFilename
+2016-09-13 10:12:58,204 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,205 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Name,   Internal Name: LinkFilename2
+2016-09-13 10:12:58,206 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: LinkFilename2
+2016-09-13 10:12:58,206 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,207 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Type,   Internal Name: DocIcon
+2016-09-13 10:12:58,208 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: DocIcon
+2016-09-13 10:12:58,208 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,209 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Server Relative URL,   Internal Name: ServerUrl
+2016-09-13 10:12:58,210 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: ServerUrl
+2016-09-13 10:12:58,210 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,211 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Encoded Absolute URL,   Internal Name: EncodedAbsUrl
+2016-09-13 10:12:58,212 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: EncodedAbsUrl
+2016-09-13 10:12:58,212 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,213 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: File Name,   Internal Name: BaseName
+2016-09-13 10:12:58,214 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: BaseName
+2016-09-13 10:12:58,214 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,215 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Property Bag,   Internal Name: MetaInfo
+2016-09-13 10:12:58,216 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: MetaInfo
+2016-09-13 10:12:58,216 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,217 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Level,   Internal Name: _Level
+2016-09-13 10:12:58,218 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: _Level
+2016-09-13 10:12:58,218 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,219 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Is Current Version,   Internal Name: _IsCurrentVersion
+2016-09-13 10:12:58,220 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: _IsCurrentVersion
+2016-09-13 10:12:58,220 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,221 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Item Child Count,   Internal Name: ItemChildCount
+2016-09-13 10:12:58,222 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: ItemChildCount
+2016-09-13 10:12:58,222 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,223 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: Folder Child Count,   Internal Name: FolderChildCount
+2016-09-13 10:12:58,224 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: FolderChildCount
+2016-09-13 10:12:58,224 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,225 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: App Created By,   Internal Name: AppAuthor
+2016-09-13 10:12:58,226 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: AppAuthor
+2016-09-13 10:12:58,226 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,227 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Title: App Modified By,   Internal Name: AppEditor
+2016-09-13 10:12:58,228 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Static Name: AppEditor
+2016-09-13 10:12:58,228 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -----------------
+2016-09-13 10:12:58,229 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-09-13 10:12:58,230 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPE-0005098879
+2016-09-13 10:12:58,235 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:Consulting 4Q16 Order Sales  ID:OPE-0005098879
+2016-09-13 10:12:59,803 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-09-13 10:12:59,804 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPP-0004434277
+2016-09-13 10:12:59,813 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:CS- DISANET (DESS) (s-Chameleon )  ID:OPP-0004434277
+2016-09-13 10:13:00,568 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-09-13 10:13:00,569 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPE-0005345380
+2016-09-13 10:13:00,593 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:CS-DISA Forge.Mil Fortify on Demand (FEDRAMP approved)  ID:OPE-0005345380
+2016-09-13 10:13:01,306 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-09-13 10:13:01,307 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPE-0005723220
+2016-09-13 10:13:01,314 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:CS-DISA Optical Transceiver Order 1  ID:OPE-0005723220
+2016-09-13 10:13:02,032 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-09-13 10:13:02,034 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPE-0005735174
+2016-09-13 10:13:02,052 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:CS-DISA Office of Personnel Management Apps. Migration  ID:OPE-0005735174
+2016-09-13 10:13:02,737 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-09-13 10:13:02,738 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPP-0003862127
+2016-09-13 10:13:02,756 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:CS-Enterprise Software Licensing Optimization Solution (ESLO) (sub to Carashoft)  ID:OPP-0003862127
+2016-09-13 10:13:03,458 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-09-13 10:13:03,460 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPE-0005448375
+2016-09-13 10:13:03,475 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:CS-DISA HPE/Tanium Solution Offering  ID:OPE-0005448375
+2016-09-13 10:13:04,129 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-09-13 10:13:04,131 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPE-0005540498
+2016-09-13 10:13:04,146 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:CS-DISA Virtual Desktop Infrastructure  ID:OPE-0005540498
+2016-09-13 10:13:04,788 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-09-13 10:13:04,790 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPE-0006112209
+2016-09-13 10:13:04,809 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:ES - TR - MPO/MAINSTREAM - SUNRISE - FY17 Q1  ID:OPE-0006112209
+2016-09-13 10:13:05,489 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-09-13 10:13:05,489 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPE-0006112215
+2016-09-13 10:13:05,497 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:ES - TR - MPO/MAINSTREAM - SUNRISE - FY17 Q3  ID:OPE-0006112215
+2016-09-13 10:13:06,136 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-09-13 10:13:06,138 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPE-0005610017
+2016-09-13 10:13:06,156 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:DISA ACAS Growth - Air Force Instructional Classes  ID:OPE-0005610017
+2016-09-13 10:13:06,836 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-09-13 10:13:06,836 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPE-0005284830
+2016-09-13 10:13:06,843 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:Merlin - Sub NG  ID:OPE-0005284830
+2016-09-13 10:13:07,478 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-09-13 10:13:07,479 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPP-0004336689
+2016-09-13 10:13:07,487 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:Hermes (s-Leidos)  ID:OPP-0004336689
+2016-09-13 10:13:08,169 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-09-13 10:13:08,170 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPE-0005418095
+2016-09-13 10:13:08,185 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:Venus II Extension (s-Leidos)  ID:OPE-0005418095
+2016-09-13 10:13:08,844 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-09-13 10:13:08,845 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - OPE-0006020933
+2016-09-13 10:13:08,864 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - UPDATE: Name:ES I2SSC  ID:OPE-0006020933
+2016-09-13 10:13:09,499 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-09-13 10:13:09,499 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - 
+2016-09-13 10:13:09,782 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-09-13 10:13:09,783 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - 
+2016-09-13 10:13:10,099 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-09-13 10:13:10,099 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - 
+2016-09-13 10:13:10,400 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-09-13 10:13:10,401 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - 
+2016-09-13 10:13:10,737 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-09-13 10:13:10,738 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - 
+2016-09-13 10:13:11,037 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - -------  Inside For  -----------------
+2016-09-13 10:13:11,038 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - 
+2016-09-13 10:13:16,031 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - ERROR: USPSES Dept of Defense not found in LOB list.  MPP is not assignable.
+2016-09-13 10:13:17,149 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - ERROR: USPSES US Air Force - Dover AFB not found in LOB list.  MPP is not assignable.
+2016-09-13 10:13:17,168 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - ERROR: USPSES US Air Force - Dover AFB not found in LOB list.  LineOfBusiness is not assignable.
+2016-09-13 10:13:18,169 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - ERROR: Northrop Grumman Support Services Corp not found in LOB list.  MPP is not assignable.
+2016-09-13 10:13:18,187 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - ERROR: Northrop Grumman Support Services Corp not found in LOB list.  LineOfBusiness is not assignable.
+2016-09-13 10:13:18,553 [1] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Total LOB changes would be 1
+2016-09-13 13:29:05,986 [1] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/  target backup:MikeTestPipelineBackup  source backup Pipeline
+2016-09-13 13:29:06,064 [1] DEBUG SharePointListCopy.Program [(null)] - ClientContextWeb: https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/
+2016-09-13 13:29:06,064 [1] DEBUG SharePointListCopy.Program [(null)] - backupListTarget: MikeTestPipelineBackup
+2016-09-13 13:29:06,064 [1] DEBUG SharePointListCopy.Program [(null)] - backupListSource: Pipeline
+2016-09-13 13:29:06,065 [1] DEBUG SharePointListCopy.Program [(null)] - pipelineBackupDocLib: PipelineArchive
+2016-09-13 13:29:06,065 [1] DEBUG SharePointListCopy.Program [(null)] - updateList: MikeTestPipelineBackup
+2016-09-13 13:33:08,001 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:34:09,021 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:34:22,063 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: String was not recognized as a valid DateTime.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:34:28,450 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:35:33,439 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:35:46,697 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:35:56,824 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: String was not recognized as a valid DateTime.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:37:12,944 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:37:16,466 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:37:17,025 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:37:35,083 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:37:39,021 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:38:12,265 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:38:13,504 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:38:59,117 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:39:09,515 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:39:10,079 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:39:17,982 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:39:23,186 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:39:27,987 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:39:38,362 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:39:39,398 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:39:56,292 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:39:58,436 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:40:00,557 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: String was not recognized as a valid DateTime.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:40:01,596 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:40:32,726 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: String was not recognized as a valid DateTime.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:40:36,602 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:40:44,790 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:40:57,038 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:41:01,435 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:41:07,378 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:41:20,785 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:41:21,264 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:41:21,825 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:41:33,212 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:41:34,822 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:41:47,760 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:41:48,846 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:41:49,327 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:41:50,940 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:41:51,444 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:41:51,949 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:41:53,563 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:41:54,029 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:41:55,673 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:41:58,928 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:42:01,088 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:42:03,255 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:43:11,121 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:43:11,589 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:43:12,615 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:43:13,751 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:43:17,108 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:43:25,057 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:43:32,312 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:43:36,931 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:43:50,892 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:43:54,721 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:43:55,186 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:43:55,675 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:43:56,191 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:43:56,659 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:43:57,124 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:43:57,614 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:43:58,067 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:43:58,565 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:43:59,030 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:43:59,513 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:44:00,040 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:44:01,106 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:44:03,239 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:44:04,234 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:44:05,538 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:44:08,236 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: String was not recognized as a valid DateTime.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:44:08,714 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:44:09,209 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:44:22,508 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:44:31,599 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:44:36,642 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:44:39,852 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:44:44,294 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:44:44,743 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:44:50,939 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:44:59,447 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:45:20,172 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:45:22,360 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:45:31,028 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:45:32,096 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:45:33,697 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:45:35,253 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:45:36,269 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:45:37,877 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:45:43,410 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:45:47,897 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:45:51,251 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: String was not recognized as a valid DateTime.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:45:52,274 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:45:55,284 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:45:58,548 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:45:59,596 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:46:02,429 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:46:04,623 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:46:05,111 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:46:08,943 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:46:13,906 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215
+2016-09-13 13:46:17,681 [1] ERROR SharePointListCopy.BackupHelper [(null)] - caught an update exception
+Microsoft.SharePoint.Client.ServerException: Invalid text value.
+
+A text field contains invalid data. Please check the value and try again.
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponseStream(Stream responseStream)
+   at Microsoft.SharePoint.Client.ClientRequest.ProcessResponse()
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQueryToServer(ChunkStringBuilder sb)
+   at Microsoft.SharePoint.Client.ClientRequest.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientRuntimeContext.ExecuteQuery()
+   at Microsoft.SharePoint.Client.ClientContext.ExecuteQuery()
+   at SharePointListCopy.BackupHelper..ctor(String clientContextWeb, String backupListTarget, String backupListSource, String pipelineBackupDocLib) in c:\Users\ThomasMich\Documents\BradCurtisFiles\sharepointhpe-master (HOLD)\SharePointListCopy\BackupHelper.cs:line 215

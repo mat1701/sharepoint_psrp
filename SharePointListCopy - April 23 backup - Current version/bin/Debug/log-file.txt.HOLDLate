@@ -1,0 +1,887 @@
+2016-09-08 13:30:14,969 [9] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/  target backup:MikeTestPipelineBackup  source backup Pipeline
+2016-09-08 13:30:15,006 [9] DEBUG SharePointListCopy.Program [(null)] - ClientContextWeb: https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/
+2016-09-08 13:30:15,006 [9] DEBUG SharePointListCopy.Program [(null)] - backupListTarget: MikeTestPipelineBackup
+2016-09-08 13:30:15,007 [9] DEBUG SharePointListCopy.Program [(null)] - backupListSource: Pipeline
+2016-09-08 13:30:15,007 [9] DEBUG SharePointListCopy.Program [(null)] - pipelineBackupDocLib: PipelineArchive
+2016-09-08 13:30:15,007 [9] DEBUG SharePointListCopy.Program [(null)] - updateList: MikeTestPipelineBackup
+2016-09-08 13:30:24,698 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0004860455]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:25,048 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0004069737]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:25,897 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0004972516]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:25,942 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0004550855]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:26,292 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005053138]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:26,301 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005053414]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:26,311 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005053018]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:26,327 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005053105]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:26,644 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - ERROR: USPSES Dept of Defense not found in LOB list.  MPP is not assignable.
+2016-09-08 13:30:26,789 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005297008]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:26,795 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005296988]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,036 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005491570]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:27,045 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005491723]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:27,054 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005492306]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,063 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005491249]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,072 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005498584]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:27,082 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005499180]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,091 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005499184]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,099 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005503748]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:27,108 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005503428]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,130 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005519512]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:27,139 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005519549]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:27,148 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005518835]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:27,157 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005518898]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:27,166 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005442432]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:27,175 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005527012]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,183 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005526254]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:27,215 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005543514]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:27,247 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005574059]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:27,256 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005579590]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:27,265 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005579583]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:27,276 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005578289]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:27,284 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005579704]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,293 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005583562]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,302 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005584635]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:27,310 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005592528]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,319 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005591989]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,328 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005592740]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,339 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005592753]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,348 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005592762]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,357 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005592056]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,366 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005591877]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,375 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005593413]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:27,384 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005599061]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:27,393 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005597854]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,402 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005602151]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,411 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005602147]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:27,420 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005608245]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,429 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005608312]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,438 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005609751]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:27,447 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005610249]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:27,455 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005610035]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,464 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005610017]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,473 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005610329]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,482 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005610332]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,491 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005614586]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,499 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005614794]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:27,528 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - ERROR: USPSES US Air Force - Dover AFB not found in LOB list.  MPP is not assignable.
+2016-09-08 13:30:27,552 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - ERROR: USPSES US Air Force - Dover AFB not found in LOB list.  LineOfBusiness is not assignable.
+2016-09-08 13:30:27,557 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005615462]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:27,566 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005629483]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:27,575 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005633573]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,584 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005638525]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,593 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005636161]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:27,601 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005636177]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:27,610 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005646376]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:27,634 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005655279]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,643 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005655397]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:27,652 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005655855]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:27,660 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005661643]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:27,669 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005661408]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:27,678 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005673238]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:27,687 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005673236]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:27,695 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005677219]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,704 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005677190]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,713 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005677232]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,722 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005677198]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,731 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005677208]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,740 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005677167]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,749 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005679458]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,758 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005677178]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,767 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005683795]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:27,776 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005683196]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,784 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005680075]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:27,793 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005688344]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:27,802 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005698023]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,811 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005705984]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,820 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005705338]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,829 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005706197]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,837 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005705374]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,846 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005705384]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,855 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005710398]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,866 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005716076]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,875 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005715621]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:27,884 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005719938]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,893 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005722998]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,901 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005735174]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,910 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005738290]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:27,919 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005743609]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,928 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005744726]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,937 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005756895]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,945 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005761394]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,955 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005760250]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:27,964 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0004084101]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:27,973 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005039759]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:27,982 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0004669134]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:27,991 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0004471611]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,000 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0004176947]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,010 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005760771]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,018 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0000627871]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,027 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0004084038]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,037 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0000627852]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,046 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0000844559]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,055 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0000626700]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,064 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0000627768]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,072 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0001726566]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,082 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0000627869]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,095 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0001726547]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,104 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0000627868]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,113 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005761202]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:28,122 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005765184]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,131 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005765897]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:28,140 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005765894]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,149 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005771463]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:28,158 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005771461]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:28,167 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005771459]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:28,176 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005770748]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,184 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005771416]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,193 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005781225]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,202 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786137]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:28,212 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786744]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:28,221 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786767]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:28,229 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786646]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:28,238 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786750]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:28,247 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786175]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:28,257 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786698]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:28,266 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786756]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:28,275 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005789044]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:28,284 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005798491]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,293 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005798279]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:28,302 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005798259]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:28,310 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005797873]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:28,319 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005801563]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,327 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005802336]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:28,337 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005806643]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:28,346 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005806638]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:28,355 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005809660]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,363 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005811310]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,372 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005809995]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,382 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005814749]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,391 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0004926893]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,400 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005827784]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,409 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005827815]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:28,417 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005827902]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:28,427 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005831469]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,436 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005831503]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,444 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005831520]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,453 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005837909]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:28,463 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005857809]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,472 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005857841]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,481 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005857854]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,490 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005857396]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,498 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005857482]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,508 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005862306]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,517 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005862350]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,525 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005866006]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,534 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005869349]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,543 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005869373]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,552 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005881743]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:28,561 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005881756]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:28,569 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005881392]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:28,578 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005881504]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:28,588 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005881916]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:28,596 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005888132]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,605 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005887891]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:28,613 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005892496]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,622 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005892479]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:28,632 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005892541]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:28,640 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005895000]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,649 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005895642]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:28,658 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005906995]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,666 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005906337]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:28,676 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005912005]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:28,685 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005915493]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,693 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005915506]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,702 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005921882]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,711 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005922014]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,720 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005922018]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,729 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005922006]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,738 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005928099]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,747 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005928486]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:28,756 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005931122]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,765 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005715922]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:28,774 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005932007]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:28,783 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005931850]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,792 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005931962]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,801 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005931990]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,810 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005932035]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,819 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005931742]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,827 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005931894]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,836 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005932060]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,845 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005932347]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,854 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005932069]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,863 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005931529]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:28,872 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005932457]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,882 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005934253]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:28,890 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005934239]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:28,899 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005936682]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,908 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005938439]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:28,916 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951188]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,926 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951409]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,935 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951437]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,943 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951430]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,952 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951446]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,960 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951200]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,970 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951435]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,978 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951452]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,987 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005968390]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:28,995 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005982228]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:29,004 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005987584]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:29,013 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005997303]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:29,022 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005997308]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:29,031 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005997715]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,040 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005997668]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:29,049 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005996507]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:29,058 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006000416]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,067 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006001338]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:29,076 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006010575]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:29,085 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006010718]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:29,094 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006012842]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,103 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006012834]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,112 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006013548]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:29,121 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006017125]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,130 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006017603]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:29,139 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006020933]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:29,148 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006022153]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,176 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - ERROR: Northrop Grumman Support Services Corp not found in LOB list.  MPP is not assignable.
+2016-09-08 13:30:29,199 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - ERROR: Northrop Grumman Support Services Corp not found in LOB list.  LineOfBusiness is not assignable.
+2016-09-08 13:30:29,204 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006022278]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:29,213 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006022279]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:29,223 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006029579]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:29,232 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006041733]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:29,240 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006041758]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:29,249 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006046521]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:29,258 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006046053]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:29,267 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006046048]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:29,276 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006045077]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:29,285 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006057236]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,294 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006057251]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,303 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006055152]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:29,312 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006055147]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:29,321 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006054659]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:29,329 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059581]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,338 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059554]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,347 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059560]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,356 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059566]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,365 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059545]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,373 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059576]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,383 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059531]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,391 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059241]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:29,400 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006073840]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,409 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006076417]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:29,418 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006078747]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:29,427 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006071862]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:29,436 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006099468]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,445 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006102489]  -- MPP would be assigned here. Winnie Lin
+2016-09-08 13:30:29,454 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006105809]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-08 13:30:29,463 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006105719]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,473 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006105644]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:29,482 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006105722]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:29,490 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006105858]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:29,499 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006109772]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,509 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006112209]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:29,518 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006112215]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:29,527 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006116205]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,536 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006119595]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,545 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006119972]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:29,554 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006120250]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:29,563 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006132232]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:29,571 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006140302]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:29,580 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0003854175]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,589 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006144184]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:29,599 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006148006]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,608 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006152196]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,617 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006159111]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:29,625 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006158943]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:29,634 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006158950]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:29,644 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006158967]  -- MPP would be assigned here. Norm Owens
+2016-09-08 13:30:29,653 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181528]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,661 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181515]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,670 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181525]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,680 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181521]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,689 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181518]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,698 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181530]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,707 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181523]  -- MPP would be assigned here. Rickie Fleming
+2016-09-08 13:30:29,716 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181867]  -- MPP would be assigned here. J Todd Ross
+2016-09-08 13:30:29,721 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Total LOB changes would be 292
+2016-09-09 14:11:19,982 [9] DEBUG SharePointListCopy.Program [(null)] - context web:https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/  target backup:MikeTestPipelineBackup  source backup Pipeline
+2016-09-09 14:11:20,707 [9] DEBUG SharePointListCopy.Program [(null)] - ClientContextWeb: https://bi.sharepoint.hpe.com/teams/USPS_CandI_CapturePortal/
+2016-09-09 14:11:20,708 [9] DEBUG SharePointListCopy.Program [(null)] - backupListTarget: MikeTestPipelineBackup
+2016-09-09 14:11:20,710 [9] DEBUG SharePointListCopy.Program [(null)] - backupListSource: Pipeline
+2016-09-09 14:11:20,711 [9] DEBUG SharePointListCopy.Program [(null)] - pipelineBackupDocLib: PipelineArchive
+2016-09-09 14:11:20,712 [9] DEBUG SharePointListCopy.Program [(null)] - updateList: MikeTestPipelineBackup
+2016-09-09 14:11:43,946 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0004860455]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:44,445 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0004069737]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:45,329 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0004972516]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:45,375 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0004550855]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:45,806 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005053138]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:45,816 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005053414]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:45,826 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005053018]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:45,844 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005053105]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:46,315 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - ERROR: USPSES Dept of Defense not found in LOB list.  MPP is not assignable.
+2016-09-09 14:11:46,470 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005297008]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:46,476 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005296988]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:46,716 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005491570]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:46,720 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005491570]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:46,726 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005491723]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:46,730 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005491723]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:46,736 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005492306]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:46,740 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005492306]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:46,746 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005491249]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:46,751 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005491249]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:46,757 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005498584]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:46,761 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005498584]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:46,768 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005499180]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:46,772 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005499180]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:46,779 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005499184]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:46,783 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005499184]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:46,788 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005503748]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:46,792 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005503748]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:46,799 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005503428]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:46,802 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005503428]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:46,821 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005519512]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:46,825 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005519512]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:46,831 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005519549]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:46,835 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005519549]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:46,841 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005518835]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:46,845 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005518835]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:46,850 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005518898]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:46,854 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005518898]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:46,860 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005442432]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:46,864 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005442432]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:46,870 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005527012]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:46,874 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005527012]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:46,880 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005526254]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:46,884 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005526254]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:46,912 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005543514]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:46,916 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005543514]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:46,945 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005574059]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:46,949 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005574059]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:46,955 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005579590]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:46,959 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005579590]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:46,965 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005579583]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:46,969 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005579583]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:46,975 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005578289]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:46,979 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005578289]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:46,984 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005579704]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:46,989 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005579704]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:46,994 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005583562]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:46,999 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005583562]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,004 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005584635]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:47,009 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005584635]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:47,015 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005592528]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,019 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005592528]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,024 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005591989]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,028 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005591989]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,034 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005592740]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,038 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005592740]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,044 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005592753]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,068 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005592753]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,073 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005592762]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,077 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005592762]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,083 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005592056]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,087 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005592056]  -- LineOfBusiness would be assigned here. DISA
+2016-09-09 14:11:47,093 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005591877]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,098 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005591877]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,104 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005593413]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,108 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005593413]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,114 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005599061]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:47,118 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005599061]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:47,123 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005597854]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,128 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005597854]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,134 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005602151]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,139 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005602151]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,145 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005602147]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,149 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005602147]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,155 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005608245]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,159 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005608245]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,165 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005608312]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,168 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005608312]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,174 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005609751]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,178 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005609751]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,186 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005610249]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:47,190 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005610249]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:47,197 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005610035]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,202 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005610035]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,208 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005610017]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,212 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005610017]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,218 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005610329]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,221 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005610329]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,227 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005610332]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,231 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005610332]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,236 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005614586]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,240 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005614586]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,246 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005614794]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:47,250 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005614794]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:47,275 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - ERROR: USPSES US Air Force - Dover AFB not found in LOB list.  MPP is not assignable.
+2016-09-09 14:11:47,301 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - ERROR: USPSES US Air Force - Dover AFB not found in LOB list.  LineOfBusiness is not assignable.
+2016-09-09 14:11:47,306 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005615462]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:47,310 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005615462]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:47,316 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005629483]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:47,320 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005629483]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:47,326 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005633573]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,330 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005633573]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,336 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005638525]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,340 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005638525]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,365 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005636161]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:47,368 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005636161]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:47,374 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005636177]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:47,378 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005636177]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:47,384 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005646376]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,388 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005646376]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,394 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005655279]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,398 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005655279]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,404 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005655397]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:47,408 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005655397]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:47,414 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005655855]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,418 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005655855]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,424 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005661643]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:47,428 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005661643]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:47,434 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005661408]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:47,438 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005661408]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:47,443 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005673238]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:47,448 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005673238]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:47,453 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005673236]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:47,457 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005673236]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:47,463 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005677219]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,467 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005677219]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,473 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005677190]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,477 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005677190]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,483 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005677232]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,487 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005677232]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,493 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005677198]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,497 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005677198]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,503 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005677208]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,507 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005677208]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,512 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005677167]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,517 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005677167]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,522 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005679458]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,526 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005679458]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,532 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005677178]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,536 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005677178]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,542 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005683795]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:47,549 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005683795]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:47,554 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005683196]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,558 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005683196]  -- LineOfBusiness would be assigned here. DISA
+2016-09-09 14:11:47,564 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005680075]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:47,568 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005680075]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:47,574 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005688344]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:47,578 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005688344]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:47,584 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005698023]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,588 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005698023]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,594 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005705984]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,598 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005705984]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,604 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005705338]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,608 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005705338]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,615 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005706197]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,619 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005706197]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,625 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005705374]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,629 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005705374]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,635 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005705384]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,639 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005705384]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,645 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005710398]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,649 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005710398]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,655 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005716076]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,659 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005716076]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,665 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005715621]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:47,669 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005715621]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:47,675 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005719938]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,679 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005719938]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,685 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005722998]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,689 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005722998]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,695 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005735174]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,699 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005735174]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,705 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005738290]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:47,709 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005738290]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:47,715 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005743609]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,719 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005743609]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,725 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005744726]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,729 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005744726]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,735 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005756895]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,739 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005756895]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,745 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005761394]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,749 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005761394]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,755 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005760250]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,759 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005760250]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,765 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0004084101]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,769 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0004084101]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,776 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005039759]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,780 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005039759]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,786 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0004669134]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,790 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0004669134]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,797 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0004471611]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,801 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0004471611]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,807 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0004176947]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,812 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0004176947]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,819 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005760771]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,823 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005760771]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,829 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0000627871]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,833 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0000627871]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,839 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0004084038]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,844 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0004084038]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,850 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0000627852]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,858 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0000627852]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,864 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0000844559]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,868 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0000844559]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,874 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0000626700]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,878 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0000626700]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,884 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0000627768]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,888 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0000627768]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,894 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0001726566]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,898 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0001726566]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,904 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0000627869]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,908 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0000627869]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,914 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0001726547]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,919 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0001726547]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,925 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0000627868]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,929 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0000627868]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,935 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005761202]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:47,938 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005761202]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:47,945 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005765184]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:47,949 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005765184]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:47,955 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005765897]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:47,959 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005765897]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:47,965 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005765894]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:47,969 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005765894]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:47,975 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005771463]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:47,979 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005771463]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:47,984 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005771461]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:47,988 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005771461]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:47,994 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005771459]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:47,998 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005771459]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:48,004 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005770748]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,008 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005770748]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,014 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005771416]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,018 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005771416]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,024 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005781225]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,028 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005781225]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,034 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786137]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:48,038 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786137]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:48,044 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786744]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:48,048 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786744]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:48,054 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786767]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:48,058 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786767]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:48,064 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786646]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:48,068 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786646]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:48,074 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786750]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:48,079 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786750]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:48,084 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786175]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:48,089 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786175]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:48,094 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786698]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:48,098 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786698]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:48,104 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786756]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:48,108 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005786756]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:48,114 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005789044]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:48,118 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005789044]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:48,124 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005798491]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,129 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005798491]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,135 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005798279]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:48,139 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005798279]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:48,146 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005798259]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:48,150 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005798259]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:48,157 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005797873]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:48,160 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005797873]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:48,166 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005801563]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,170 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005801563]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,176 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005802336]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:48,180 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005802336]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:48,186 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005806643]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:48,190 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005806643]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:48,196 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005806638]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:48,200 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005806638]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:48,259 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005809660]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,269 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005809660]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,284 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005811310]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,295 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005811310]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,334 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005809995]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,365 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005809995]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,371 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005814749]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:48,376 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005814749]  -- LineOfBusiness would be assigned here. Civ/Healthcare
+2016-09-09 14:11:48,382 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0004926893]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,386 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0004926893]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,392 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005827784]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,397 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005827784]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,404 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005827815]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:48,408 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005827815]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:48,414 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005827902]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:48,418 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005827902]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:48,424 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005831469]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:48,427 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005831469]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:48,433 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005831503]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:48,437 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005831503]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:48,443 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005831520]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:48,447 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005831520]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:48,453 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005837909]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:48,457 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005837909]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:48,462 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005857809]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,467 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005857809]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,472 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005857841]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,476 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005857841]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,483 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005857854]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,486 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005857854]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,492 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005857396]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,497 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005857396]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,502 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005857482]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,506 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005857482]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,513 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005862306]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,516 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005862306]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,522 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005862350]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,525 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005862350]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,532 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005866006]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:48,536 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005866006]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:48,541 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005869349]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:48,546 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005869349]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:48,552 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005869373]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:48,556 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005869373]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:48,562 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005881743]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:48,566 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005881743]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:48,572 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005881756]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:48,575 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005881756]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:48,581 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005881392]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:48,585 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005881392]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:48,591 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005881504]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:48,595 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005881504]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:48,600 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005881916]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:48,604 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005881916]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:48,610 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005888132]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,614 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005888132]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,620 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005887891]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:48,623 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005887891]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:48,629 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005892496]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,633 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005892496]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,639 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005892479]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:48,643 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005892479]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:48,649 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005892541]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:48,653 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005892541]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:48,659 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005895000]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,663 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005895000]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:48,669 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005895642]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:48,673 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005895642]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:48,679 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005906995]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,682 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005906995]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,694 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005906337]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:48,698 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005906337]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:48,704 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005912005]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:48,707 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005912005]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:48,713 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005915493]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,717 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005915493]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,723 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005915506]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,727 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005915506]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,733 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005921882]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,737 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005921882]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,742 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005922014]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:48,746 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005922014]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:48,752 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005922018]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:48,757 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005922018]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:48,762 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005922006]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:48,767 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005922006]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:48,772 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005928099]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,777 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005928099]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,783 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005928486]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:48,787 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005928486]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:48,793 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005931122]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:48,797 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005931122]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:48,803 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005715922]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:48,807 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005715922]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:48,813 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005932007]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:48,817 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005932007]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:48,823 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005931850]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,827 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005931850]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,833 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005931962]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,837 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005931962]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,843 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005931990]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,847 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005931990]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,852 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005932035]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,856 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005932035]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,862 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005931742]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,866 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005931742]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,871 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005931894]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,876 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005931894]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,882 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005932060]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,886 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005932060]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,892 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005932347]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,896 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005932347]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,902 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005932069]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:48,906 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005932069]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:48,912 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005931529]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:48,916 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005931529]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:48,922 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005932457]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:48,926 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005932457]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:48,931 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005934253]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:48,935 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005934253]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:48,941 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005934239]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:48,945 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005934239]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:48,951 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005936682]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,955 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005936682]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,962 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005938439]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:48,966 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005938439]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:48,972 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951188]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,976 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951188]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,982 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951409]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,985 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951409]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:48,991 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951437]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:48,995 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951437]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,001 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951430]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,005 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951430]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,012 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951446]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,015 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951446]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,021 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951200]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,025 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951200]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,031 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951435]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,064 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951435]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,070 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951452]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,074 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005951452]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,080 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005968390]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,084 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005968390]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,090 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005982228]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:49,094 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005982228]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:49,100 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005987584]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:49,104 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005987584]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:49,109 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005997303]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:49,113 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005997303]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:49,119 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005997308]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:49,123 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005997308]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:49,129 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005997715]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,133 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005997715]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,139 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005997668]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:49,143 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005997668]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:49,149 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005996507]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:49,153 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0005996507]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:49,159 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006000416]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,163 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006000416]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:49,169 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006001338]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:49,172 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006001338]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:49,178 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006010575]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:49,182 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006010575]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:49,188 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006010718]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:49,192 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006010718]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:49,198 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006012842]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,280 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006012842]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,295 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006012834]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,305 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006012834]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,317 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006013548]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:49,323 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006013548]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:49,332 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006017125]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,339 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006017125]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,347 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006017603]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:49,351 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006017603]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:49,357 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006020933]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:49,361 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006020933]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:49,368 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006022153]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,372 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006022153]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,399 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - ERROR: Northrop Grumman Support Services Corp not found in LOB list.  MPP is not assignable.
+2016-09-09 14:11:49,424 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - ERROR: Northrop Grumman Support Services Corp not found in LOB list.  LineOfBusiness is not assignable.
+2016-09-09 14:11:49,430 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006022278]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:49,435 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006022278]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:49,440 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006022279]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:49,445 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006022279]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:49,451 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006029579]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:49,455 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006029579]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:49,461 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006041733]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:49,465 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006041733]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:49,471 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006041758]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:49,475 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006041758]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:49,481 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006046521]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:49,486 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006046521]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:49,492 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006046053]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:49,496 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006046053]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:49,502 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006046048]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:49,506 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006046048]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:49,512 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006045077]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:49,517 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006045077]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:49,523 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006057236]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,527 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006057236]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,533 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006057251]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,538 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006057251]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,544 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006055152]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:49,548 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006055152]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:49,554 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006055147]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:49,558 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006055147]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:49,565 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006054659]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:49,570 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006054659]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:49,582 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059581]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,586 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059581]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:49,591 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059554]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,596 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059554]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:49,602 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059560]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,606 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059560]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:49,613 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059566]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,617 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059566]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:49,623 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059545]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,627 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059545]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:49,633 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059576]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,638 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059576]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:49,644 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059531]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,648 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059531]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:49,654 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059241]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:49,658 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006059241]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:49,664 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006073840]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,669 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006073840]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:49,674 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006076417]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:49,679 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006076417]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:49,685 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006078747]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:49,689 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006078747]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:49,695 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006071862]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:49,699 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006071862]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:49,706 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006099468]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,710 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006099468]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,716 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006102489]  -- MPP would be assigned here. Winnie Lin
+2016-09-09 14:11:49,720 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006102489]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:49,726 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006105809]  -- MPP would be assigned here. Glenn Mcknab
+2016-09-09 14:11:49,730 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006105809]  -- LineOfBusiness would be assigned here. DAG
+2016-09-09 14:11:49,736 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006105719]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,740 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006105719]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,746 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006105644]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:49,750 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006105644]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:49,756 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006105722]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:49,760 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006105722]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:49,767 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006105858]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:49,771 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006105858]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:49,777 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006109772]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,781 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006109772]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,787 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006112209]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:49,791 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006112209]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:49,798 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006112215]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:49,802 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006112215]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:49,808 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006116205]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,812 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006116205]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,818 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006119595]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,823 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006119595]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,829 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006119972]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:49,833 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006119972]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:49,839 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006120250]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:49,843 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006120250]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:49,849 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006132232]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:49,853 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006132232]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:49,859 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006140302]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:49,863 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006140302]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:49,870 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0003854175]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,874 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPP-0003854175]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,881 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006144184]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:49,886 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006144184]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:49,892 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006148006]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,896 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006148006]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,902 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006152196]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,906 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006152196]  -- LineOfBusiness would be assigned here. DOD
+2016-09-09 14:11:49,912 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006159111]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:49,917 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006159111]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:49,923 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006158943]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:49,927 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006158943]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:49,933 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006158950]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:49,942 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006158950]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:49,948 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006158967]  -- MPP would be assigned here. Norm Owens
+2016-09-09 14:11:49,952 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006158967]  -- LineOfBusiness would be assigned here. ATP
+2016-09-09 14:11:49,958 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181528]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,962 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181528]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:49,968 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181515]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,972 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181515]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:49,977 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181525]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,982 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181525]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:49,987 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181521]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:49,991 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181521]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:49,997 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181518]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:50,001 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181518]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:50,007 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181530]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:50,010 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181530]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:50,017 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181523]  -- MPP would be assigned here. Rickie Fleming
+2016-09-09 14:11:50,020 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181523]  -- LineOfBusiness would be assigned here. CIV/Healthcare
+2016-09-09 14:11:50,026 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181867]  -- MPP would be assigned here. J Todd Ross
+2016-09-09 14:11:50,030 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - HPEOppID: [OPE-0006181867]  -- LineOfBusiness would be assigned here. EIG
+2016-09-09 14:11:50,032 [9] DEBUG SharePointListCopy.UpdatePipelineList [(null)] - Total LOB changes would be 292
