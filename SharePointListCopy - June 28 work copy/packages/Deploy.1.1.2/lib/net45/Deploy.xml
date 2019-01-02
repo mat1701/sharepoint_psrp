@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Deploy</name>
+    </assembly>
+    <members>
+        <member name="T:Deploy.PackageBuilder">
+            <summary>
+            Builds an MSI installer.
+            </summary>
+        </member>
+        <member name="M:Deploy.PackageBuilder.ProductName(System.String)">
+            <summary>
+            Sets the name of the product.
+            </summary>
+            <remarks>
+            The product name is used as the installation package title, and appears in the Windows Programs list. It is also
+            used as the directory name in the Program Files directory, and as such, must not contain any illegal characters.
+            </remarks>
+            <param name="productName">The name of the product.</param>
+            <exception cref="T:System.ArgumentException">The <paramref name="productName"/> parameter is null or empty.</exception>
+            <returns>The package builder.</returns>
+        </member>
+        <member name="M:Deploy.PackageBuilder.ProductIcon(System.String)">
+            <summary>
+            Sets the product icon filename.
+            </summary>
+            <remarks>
+            The product icon is used in the Windows Programs list.
+            </remarks>
+            <param name="productIcon">The product icon filename.</param>
+            <exception cref="T:System.ArgumentException">The <paramref name="productIcon"/> parameter is null or empty.</exception>
+            <returns>The package builder.</returns>
+        </member>
+        <member name="M:Deploy.PackageBuilder.Author(System.String)">
+            <summary>
+            Sets the package author.
+            </summary>
+            <param name="author">The package author</param>
+            <returns>The package builder.</returns>
+        </member>
+        <member name="M:Deploy.PackageBuilder.Platform(Deploy.PackagePlatform)">
+            <summary>
+            Sets the target platform for the package.
+            </summary>
+            <remarks>
+            MSI installation packages can be targeted at either 32 or 64-bit platforms. Based on this setting, the package
+            will install to either Program Files (x86) or Program Files on a 64-bit system.
+            </remarks>
+            <param name="platform">The target platform for the package.</param>
+            <returns>The package builder.</returns>
+        </member>
+        <member name="M:Deploy.PackageBuilder.UpgradeCode(System.Guid)">
+            <summary>
+            Sets the upgrade code for the package.
+            </summary>
+            <remarks>
+            The upgrade code must remain consistent for the same application. It is used by Windows to upgrade older versions
+            of the same application. If the upgrade code changes, Windows assumes that a new and different application is being
+            installed.
+            </remarks>
+            <param name="upgradeCode">The upgrade code for the package.</param>
+            <exception cref="T:System.ArgumentException">The <paramref name="upgradeCode"/> parameter is an empty <see cref="T:System.Guid"/>.</exception>
+            <returns>The package builder.</returns>
+        </member>
+        <member name="M:Deploy.PackageBuilder.Version(System.Version)">
+            <summary>
+            Sets the package version.
+            </summary>
+            <remarks>
+            The version is used by Windows to track upgrades of the same application. Newer versions will replace older
+            versions,
+            but an older version cannot replace a newer version.
+            </remarks>
+            <param name="version">The package version.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="version"/> parameter is null.</exception>
+            <returns>The package builder.</returns>
+        </member>
+        <member name="M:Deploy.PackageBuilder.File(System.String,System.String,System.String)">
+            <summary>
+            Adds a file to the package to be installed.
+            </summary>
+            <remarks>
+            When a shortcut icon is specified, an icon is placed in the Start Menu. The icon appears at the root level of the
+            Start Menu with the icon name specified.
+            </remarks>
+            <param name="filename">The filename of the file to be added.</param>
+            <param name="shortcutIcon">An optional parameter specifying the path to the icon to be used for the Start Menu.</param>
+            <param name="shortcutName">An optional parameter specifying the name of the icon to display in the Start Menu.</param>
+            <exception cref="T:System.ArgumentException">The <paramref name="filename"/> parameter is null or empty.</exception>
+            <returns>The package builder.</returns>
+        </member>
+        <member name="M:Deploy.PackageBuilder.Build(System.String)">
+            <summary>
+            Builds the MSI package to the specified filename.
+            </summary>
+            <param name="filename">The filename of the MSI package.</param>
+            <exception cref="T:System.ArgumentException">The <paramref name="filename"/> parameter is null or empty.</exception>
+            <exception cref="T:Deploy.PackageException">A validation error or other platform error occurred</exception>
+        </member>
+        <member name="T:Deploy.PackageException">
+            <summary>
+            The exception that is thrown when an installation package fails to build.
+            </summary>
+        </member>
+        <member name="M:Deploy.PackageException.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Deploy.PackageException"/> class.
+            </summary>
+        </member>
+        <member name="M:Deploy.PackageException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Deploy.PackageException"/> class with the specifed error message.
+            </summary>
+            <param name="message">The message that describes the error.</param>
+        </member>
+        <member name="M:Deploy.PackageException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Deploy.PackageException"/> class with the specifed error message
+            and a reference to the inner exception that is the cause of the exception.
+            </summary>
+            <param name="message">The message that describes the error.</param>
+            <param name="innerException">The inner exception that is the cause of the exception.</param>
+        </member>
+        <member name="M:Deploy.PackageException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Deploy.PackageException"/> class.
+            </summary>
+            <param name="info">The object that holds the serialized object data.</param>
+            <param name="context">The contextual information about the source or destination.</param>
+        </member>
+        <member name="T:Deploy.PackagePlatform">
+            <summary>
+            Describes the target platform for the installation package.
+            </summary>
+        </member>
+        <member name="F:Deploy.PackagePlatform.X86">
+            <summary>
+            Targets 32-bit systems.
+            </summary>
+        </member>
+        <member name="F:Deploy.PackagePlatform.X64">
+            <summary>
+            Targets 64-bit systems.
+            </summary>
+        </member>
+        <member name="T:Deploy.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Deploy.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Deploy.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Deploy.Properties.Resources.Argument_EmptyGuid">
+            <summary>
+              Looks up a localized string similar to Argument cannot be an empty Guid.
+            </summary>
+        </member>
+        <member name="P:Deploy.Properties.Resources.Argument_NullOrEmpty">
+            <summary>
+              Looks up a localized string similar to Parameter cannot be null or empty.
+            </summary>
+        </member>
+        <member name="P:Deploy.Properties.Resources.Package_InvalidIcon">
+            <summary>
+              Looks up a localized string similar to Icon file does not appear to be an ICO file.
+            </summary>
+        </member>
+        <member name="P:Deploy.Properties.Resources.Package_InvalidProductName">
+            <summary>
+              Looks up a localized string similar to Product name cannot contain invalid path characters.
+            </summary>
+        </member>
+        <member name="P:Deploy.Properties.Resources.Package_InvalidVersion">
+            <summary>
+              Looks up a localized string similar to Package version must be 3-component consisting of major, minor and build.
+            </summary>
+        </member>
+        <member name="P:Deploy.Properties.Resources.Package_MissingFile">
+            <summary>
+              Looks up a localized string similar to File does not exist.
+            </summary>
+        </member>
+        <member name="P:Deploy.Properties.Resources.Package_NoProductName">
+            <summary>
+              Looks up a localized string similar to Product name must be specified.
+            </summary>
+        </member>
+        <member name="P:Deploy.Properties.Resources.Package_NoProductVersion">
+            <summary>
+              Looks up a localized string similar to Product version must be specified.
+            </summary>
+        </member>
+        <member name="P:Deploy.Properties.Resources.Package_NoShortcutName">
+            <summary>
+              Looks up a localized string similar to Shortcut name not specified.
+            </summary>
+        </member>
+        <member name="P:Deploy.Properties.Resources.Package_NoUpgradeCode">
+            <summary>
+              Looks up a localized string similar to Upgrade code must be specified.
+            </summary>
+        </member>
+        <member name="P:Deploy.Properties.Resources.Package_OverFileLimit">
+            <summary>
+              Looks up a localized string similar to Package contains too many files.
+            </summary>
+        </member>
+        <member name="P:Deploy.Properties.Resources.Package_PlatformError">
+            <summary>
+              Looks up a localized string similar to Platform error during MSI package creation.
+            </summary>
+        </member>
+        <member name="P:Deploy.Properties.Resources.Package_ProductVersionZero">
+            <summary>
+              Looks up a localized string similar to Product version must be greater than zero.
+            </summary>
+        </member>
+    </members>
+</doc>
